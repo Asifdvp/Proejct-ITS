@@ -25,7 +25,7 @@ const TextArea : React.FC<ITextArea> = ({
       label={label}
       placeholder={placeholder}
       inputProps={{
-        maxlength: {limit}
+        maxLength: {limit}
     
       }
       }
