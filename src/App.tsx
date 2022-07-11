@@ -2,6 +2,7 @@ import React from 'react';
 import TextInput from './Components/Inputs/TextInput';
 import './App.css';
 import Grid from '@mui/material/Grid';
+import TextArea from './Components/Inputs/TextArea';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
     <TextInput  placeholder="Layihənin adı" label="Layihənin adı" />
   </Grid>
   <Grid item xs={12}>
-    <TextInput  placeholder="Layihənin adı" label="Layihənin adı" />
+   <TextArea  placeholder="Layihənin adı" label="Layihənin adı"/>
   </Grid>
 </Grid>
    
