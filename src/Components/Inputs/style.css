@@ -1,1 +1,68 @@
-/*# sourceMappingURL=style.css.map */
+@font-face {
+  font-family: Poppins;
+  src: url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+}
+.MuiTextField-root .MuiInputLabel-root {
+  font-family: "Poppins" !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #292D32;
+  opacity: 0.4;
+}
+.MuiTextField-root .MuiInputLabel-shrink {
+  color: #292D32 !important;
+  opacity: 1;
+}
+.MuiTextField-root .MuiOutlinedInput-root {
+  padding: 0;
+}
+.MuiTextField-root .MuiOutlinedInput-root .MuiOutlinedInput-input {
+  height: auto;
+  padding: 16px;
+  color: #292D32;
+}
+.MuiTextField-root .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-color: #0F3673;
+  border-width: 0.4px;
+}
+.MuiTextField-root .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #0F3673;
+}
+.MuiTextField-root .Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #0F3673 !important;
+}
+
+.MuiFormHelperText-root {
+  font-family: "Poppins" !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px !important;
+  line-height: 140%;
+}
+
+::-webkit-scrollbar {
+  background: transparent;
+  width: 6px;
+  padding-right: 50px;
+  margin-right: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 24px;
+  padding-right: 50px;
+  margin-right: 20px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #D9D9D9;
+  border-radius: 24px;
+  padding-right: 50px;
+  margin-right: 20px;
+}
+
+/* Handle on hover *//*# sourceMappingURL=style.css.map */

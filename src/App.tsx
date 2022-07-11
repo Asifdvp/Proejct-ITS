@@ -18,7 +18,7 @@ function App() {
     <TextInput  placeholder="Layihənin adı" label="Layihənin adı" />
   </Grid>
   <Grid item xs={12}>
-   <TextArea  placeholder="Layihənin adı" label="Layihənin adı"/>
+   <TextArea   placeholder="Layihənin adı" label="Layihənin adı" limit={Infinity}/>
   </Grid>
 </Grid>
    
