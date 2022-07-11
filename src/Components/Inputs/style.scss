@@ -1,68 +1,74 @@
-@import '../../Fonts/Font.scss';
- .MuiTextField-root  {
-    .MuiInputLabel-root {
-        font-family: 'Poppins' !important;
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 100%;
-        color: #292D32;
-         opacity: 0.4;
+@import "../../Assets//Fonts/Font.css";
+.MuiTextField-root {
+  .MuiInputLabel-root {
+    font-family: "Poppins" !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #292d32;
+    opacity: 0.4;
+   
+   
+    padding: 0 !important;
+  }
+  .MuiInputLabel-shrink {
+    color: #292d32 !important;
+    opacity: 1;
+    font-size: 16px;
+  }
+  .MuiOutlinedInput-root {
+    padding: 0;
+    .MuiOutlinedInput-input {
+      height: auto;
+      padding: 16px;
+      color: #292d32;
+      border-width: 0.4px !important;
+      font-family: "Poppins" !important;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 100%;
     }
-    .MuiInputLabel-shrink{
-        color: #292D32 !important;
-        opacity:1;
+    .MuiOutlinedInput-notchedOutline {
+      border-color: #0f3673;
+      border-width: 0.4px;
     }
-    .MuiOutlinedInput-root {
-        padding: 0;
-        .MuiOutlinedInput-input{
-            height: auto;
-            padding: 16px;
-            color: #292D32  ;
-          
-        }
-        .MuiOutlinedInput-notchedOutline{
-            border-color: #0F3673;
-            border-width: 0.4px;
-        }
-        &:hover .MuiOutlinedInput-notchedOutline{
-border-color: #0F3673;
-        }
-    
+    &:hover .MuiOutlinedInput-notchedOutline {
+      border-color: #0f3673;
     }
-    .Mui-focused .MuiOutlinedInput-notchedOutline{
-        border-color: #0F3673 !important;
-    }
+  }
+  .Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #0f3673 !important;
+    border-width: 0.4px !important;
+  }
 }
-.MuiFormHelperText-root{
-    font-family:'Poppins' !important;
-font-style: normal;
-font-weight: 400;
-font-size: 16px !important;
-line-height: 140%;
+.MuiFormHelperText-root {
+  font-family: "Poppins" !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px !important;
+  line-height: 140%;
 }
 
+.disAbled {
+  background: rgba(15, 54, 115, 0.1);
+}
 ::-webkit-scrollbar {
-    background: transparent;
-    width: 6px;
-    padding-right: 50px;
-    margin-right: 20px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: transparent;
-    border-radius: 24px;
-    padding-right: 50px;
-    margin-right: 20px;
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #D9D9D9;
-    border-radius: 24px;
-    padding-right: 50px;
-    margin-right: 20px;
-  }
-  
-  /* Handle on hover */
+  background: transparent;
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 24px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #d9d9d9;
+  border-radius: 24px;
+}
+
+/* Handle on hover */

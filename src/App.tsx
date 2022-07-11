@@ -9,15 +9,18 @@ function App() {
     <div className="App">
 <Grid container spacing={2}>
   <Grid item xs={4}>
-    <TextInput  placeholder="Layihənin adı" label="Layihənin adı"/>
+    <TextInput disAble={false}  placeholder="Layihənin adı" label="Layihənin adı"/>
   </Grid>
   <Grid item xs={4}>
-    <TextInput   placeholder="Layihənin kodu" label="Layihənin kodu"/>
+    <TextInput disAble={true}  placeholder="Layihənin kodu" label="Layihənin kodu"/>
   </Grid>
   <Grid item xs={4}>
-    <TextInput  placeholder="Layihənin adı" label="Layihənin adı" />
+    <TextInput disAble={false} placeholder="Layihənin adı" label="Layihənin adı" />
   </Grid>
-  <Grid item xs={12}>
+  <Grid item xs={6}>
+   <TextArea   placeholder="Layihənin adı" label="Layihənin adı" limit={Infinity}/>
+  </Grid>
+  <Grid item xs={6}>
    <TextArea   placeholder="Layihənin adı" label="Layihənin adı" limit={Infinity}/>
   </Grid>
 </Grid>

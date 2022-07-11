@@ -1,17 +1,19 @@
 import React from 'react'
 import { TextField } from '@mui/material';
 import "./style.css";
+import {  ITextArea } from "../../Interfaces/interface";
 
 
-const TextArea : React.FC<{ placeholder: string; label: string,limit:number }> = ({
+const TextArea : React.FC<ITextArea> = ({
     placeholder,
     label,
-    limit
+    limit,
+
   }) => {
     const [values, setValues] = React.useState({
       value: ""
     });
-    const handleChange = (value:any) => (event:any) => {
+    const handleChange = (value:string) => (event: React.ChangeEvent<HTMLInputElement>) => {
         setValues({ ...values, [value]: event.target.value });
       }; 
   return (
@@ -24,7 +26,10 @@ const TextArea : React.FC<{ placeholder: string; label: string,limit:number }> =
       placeholder={placeholder}
       inputProps={{
         maxlength: {limit}
-      }}
+    
+      }
+      }
+    
       value={values.value}
       helperText= {  limit !==Infinity ? `${values.value.length} / ${limit}`: null}
       onChange={handleChange("value")}
