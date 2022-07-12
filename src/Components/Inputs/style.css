@@ -69,4 +69,16 @@
   border-radius: 24px;
 }
 
-/* Handle on hover *//*# sourceMappingURL=style.css.map */
+/* Handle on hover */
+.MuiButtonBase-root, .css-1yq5fb3-MuiButtonBase-root-MuiIconButton-root {
+  margin: 0;
+  margin-right: 12px !important;
+}
+
+.MuiPaper-root, .MuiPaper-elevation, .MuiPaper-rounded, .MuiPaper-elevation8, .css-1smlk3z-MuiPaper-root {
+  padding: 16px;
+}
+
+.MuiButtonBase-root, .MuiPickersDay-root, .MuiPickersDay-dayWithMargin, .MuiPickersDay-today, .css-195y93z-MuiButtonBase-root-MuiPickersDay-root {
+  border: none !important;
+}/*# sourceMappingURL=style.css.map */
