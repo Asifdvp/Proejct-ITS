@@ -1,41 +1,43 @@
 @import "../../Assets//Fonts/Font.css";
-.MuiTextField-root .MuiInputLabel-root {
+.MuiInputLabel-root {
   font-family: "Poppins" !important;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 100%;
-  color: #292d32;
+  color: #292d32 !important;
   opacity: 0.4;
   padding: 0 !important;
 }
-.MuiTextField-root .MuiInputLabel-shrink {
+
+.MuiInputLabel-shrink {
   color: #292d32 !important;
   opacity: 1;
   font-size: 16px;
 }
-.MuiTextField-root .MuiOutlinedInput-root {
-  padding: 0;
+
+.MuiOutlinedInput-root {
+  padding: 0 16px 0 0;
 }
-.MuiTextField-root .MuiOutlinedInput-root .MuiOutlinedInput-input {
+.MuiOutlinedInput-root .MuiOutlinedInput-input, .MuiOutlinedInput-root .MuiSelect-select, .MuiOutlinedInput-root .MuiSelect-outlined {
   height: auto;
-  padding: 16px;
-  color: #292d32;
+  padding: 16px 0 16px 16px;
+  color: #292d32 !important;
   border-width: 0.4px !important;
   font-family: "Poppins" !important;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 100%;
 }
-.MuiTextField-root .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+.MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
   border-color: #0f3673;
   border-width: 0.4px;
 }
-.MuiTextField-root .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
-  border-color: #0f3673;
+.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline, .MuiOutlinedInput-root .MuiSelect-select, .MuiOutlinedInput-root .MuiSelect-outlined {
+  border-color: #0f3673 !important;
 }
-.MuiTextField-root .Mui-focused .MuiOutlinedInput-notchedOutline {
+
+.Mui-focused .MuiOutlinedInput-notchedOutline {
   border-color: #0f3673 !important;
   border-width: 0.4px !important;
 }
@@ -70,15 +72,10 @@
 }
 
 /* Handle on hover */
-.MuiButtonBase-root, .css-1yq5fb3-MuiButtonBase-root-MuiIconButton-root {
-  margin: 0;
-  margin-right: 12px !important;
-}
-
-.MuiPaper-root, .MuiPaper-elevation, .MuiPaper-rounded, .MuiPaper-elevation8, .css-1smlk3z-MuiPaper-root {
-  padding: 16px;
-}
-
-.MuiButtonBase-root, .MuiPickersDay-root, .MuiPickersDay-dayWithMargin, .MuiPickersDay-today, .css-195y93z-MuiButtonBase-root-MuiPickersDay-root {
+.MuiButtonBase-root {
   border: none !important;
+}
+
+.MuiMenuItem-root, .MuiMenuItem-gutters, .Mui-selected, .MuiButtonBase-root, .css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+  color: #292d32 !important;
 }/*# sourceMappingURL=style.css.map */

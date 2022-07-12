@@ -6,17 +6,13 @@ import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFns";
 import * as startOfDay from "date-fns";
 import Calendar from "../../Assets/images/Calendar";
-
 export default function DateInput() {
- 
   const [value, setValue] = React.useState<Date | null>(new Date());
   return (
-    <LocalizationProvider dateAdapter={AdapterDateFns} >
+    <LocalizationProvider   dateAdapter={AdapterDateFns} >
         <DesktopDatePicker 
-         
           label="Başlama Tarixi"
           inputFormat="dd.MM.yy"
-      
           value={value}
           minDate={new Date("2017-01-01")}
           components={{

@@ -4,6 +4,7 @@ import './App.css';
 import Grid from '@mui/material/Grid';
 import TextArea from './Components/Inputs/TextArea';
 import DateInput from './Components/Inputs/DateInput';
+import SelectInput from './Components/Inputs/SelctInput';
 function App() {
   return (
     <div className="App">
@@ -29,6 +30,20 @@ function App() {
   <Grid item xs={3}>
  <DateInput/>
   </Grid>
+  <Grid item xs={3}>
+ <SelectInput/>
+  </Grid>
+  <Grid item xs={3}>
+ <SelectInput/>
+  </Grid>
+  <Grid item xs={3}>
+ <SelectInput/>
+  </Grid>
+  <Grid item xs={6}>
+ <SelectInput/>
+  </Grid>
+
+
 </Grid>
    
     </div>

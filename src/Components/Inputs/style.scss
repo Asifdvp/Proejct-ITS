@@ -1,12 +1,12 @@
 @import "../../Assets//Fonts/Font.css";
-.MuiTextField-root {
+
   .MuiInputLabel-root {
     font-family: "Poppins" !important;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
-    color: #292d32;
+    color: #292d32 !important;
     opacity: 0.4;
    
    
@@ -18,31 +18,31 @@
     font-size: 16px;
   }
   .MuiOutlinedInput-root {
-    padding: 0;
-    .MuiOutlinedInput-input {
+    padding: 0 16px 0 0;
+    .MuiOutlinedInput-input, .MuiSelect-select, .MuiSelect-outlined{
       height: auto;
-      padding: 16px;
-      color: #292d32;
+      padding: 16px 0 16px 16px;
+      color: #292d32 !important ;
       border-width: 0.4px !important;
       font-family: "Poppins" !important;
       font-style: normal;
       font-weight: 400;
       font-size: 16px;
-      line-height: 100%;
+     
     }
     .MuiOutlinedInput-notchedOutline {
       border-color: #0f3673;
       border-width: 0.4px;
     }
-    &:hover .MuiOutlinedInput-notchedOutline {
-      border-color: #0f3673;
+    &:hover .MuiOutlinedInput-notchedOutline, .MuiSelect-select, .MuiSelect-outlined {
+      border-color: #0f3673 !important;
     }
   }
   .Mui-focused .MuiOutlinedInput-notchedOutline {
     border-color: #0f3673 !important;
     border-width: 0.4px !important;
   }
-}
+
 .MuiFormHelperText-root {
   font-family: "Poppins" !important;
   font-style: normal;
@@ -70,19 +70,12 @@
   background: #d9d9d9;
   border-radius: 24px;
 }
-
 /* Handle on hover */
 
-
-//DatePicker
-  .MuiButtonBase-root, .css-1yq5fb3-MuiButtonBase-root-MuiIconButton-root{
-    margin: 0 ;
-    margin-right: 12px !important;
-  }
-  .MuiPaper-root ,.MuiPaper-elevation, .MuiPaper-rounded ,.MuiPaper-elevation8 ,.css-1smlk3z-MuiPaper-root{
-    padding: 16px;
-  }
-  .MuiButtonBase-root ,.MuiPickersDay-root ,.MuiPickersDay-dayWithMargin,.MuiPickersDay-today ,.css-195y93z-MuiButtonBase-root-MuiPickersDay-root{
+  .MuiButtonBase-root {
     border: none !important;
 
   }
+ .MuiMenuItem-root ,.MuiMenuItem-gutters ,.Mui-selected ,.MuiButtonBase-root ,.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root{
+  color: #292d32 !important;
+ }
