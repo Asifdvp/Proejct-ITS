@@ -7,23 +7,26 @@ import DateInput from './Components/Inputs/DateInput';
 function App() {
   return (
     <div className="App">
-<Grid container spacing={2}>
-  <Grid item xs={4}>
+<Grid container spacing={1.5} columns={15}>
+  <Grid item xs={3}>
     <TextInput disAble={false}  placeholder="Layihənin adı" label="Layihənin adı"/>
   </Grid>
-  <Grid item xs={4}>
+  <Grid item xs={3}>
     <TextInput disAble={true}  placeholder="Layihənin kodu" label="Layihənin kodu"/>
   </Grid>
-  <Grid item xs={4}>
+  <Grid item xs={3}>
     <TextInput disAble={false} placeholder="Layihənin adı" label="Layihənin adı" />
   </Grid>
-  <Grid item xs={6}>
-   <TextArea   placeholder="Layihənin adı" label="Layihənin adı" limit={Infinity}/>
+  <Grid item xs={3}>
+    <TextInput disAble={false} placeholder="Layihənin adı" label="Layihənin adı" />
   </Grid>
-  <Grid item xs={6}>
+  {/* <Grid item xs={3}>
    <TextArea   placeholder="Layihənin adı" label="Layihənin adı" limit={Infinity}/>
-  </Grid>
-  <Grid item xs={2}>
+  </Grid> */}
+  {/* <Grid item xs={6}>
+   <TextArea   placeholder="Layihənin adı" label="Layihənin adı" limit={Infinity}/>
+  </Grid> */}
+  <Grid item xs={3}>
  <DateInput/>
   </Grid>
 </Grid>
