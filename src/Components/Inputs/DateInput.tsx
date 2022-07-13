@@ -18,6 +18,7 @@ export default function DateInput() {
           components={{
             OpenPickerIcon: Calendar
           }}
+        
           onChange={(newValue) => {
             setValue(newValue);
           }}

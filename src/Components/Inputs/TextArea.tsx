@@ -20,6 +20,7 @@ const TextArea : React.FC<ITextArea> = ({
     <div>
     <TextField
     rows={3}
+    id="outlined-multiline-static"  
     multiline={true}
     sx={{width:"100%"}}
       label={label}
@@ -29,7 +30,6 @@ const TextArea : React.FC<ITextArea> = ({
     
       }
       }
-    
       value={values.value}
       helperText= {  limit !==Infinity ? `${values.value.length} / ${limit}`: null}
       onChange={handleChange("value")}

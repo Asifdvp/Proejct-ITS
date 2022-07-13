@@ -11,12 +11,21 @@ function App() {
     <div className="App">
 <Grid container spacing={1.5} columns={12}>
 
-  {/* <Grid item xs={3}>
-   <TextArea   placeholder="Layihənin adı" label="Layihənin adı" limit={Infinity}/>
-  </Grid> */}
-  {/* <Grid item xs={6}>
-   <TextArea   placeholder="Layihənin adı" label="Layihənin adı" limit={Infinity}/>
-  </Grid> */}
+ <Grid item xs={6}>
+   <TextArea   placeholder="Layihənin adı" label="Layihənin adı" limit={5000}/>
+  </Grid> 
+ <Grid item xs={3}>
+   <DateInput />
+  </Grid> 
+ <Grid item xs={6}>
+   <TextInput  disAble={false}  placeholder="Layihənin adı" label="Layihənin adı"   />
+  </Grid> 
+ <Grid item xs={6}>
+   <TextArea  limit={1200} placeholder="Layihənin adı" label="Layihənin adı"   />
+  </Grid> 
+ <Grid item xs={6}>
+   <TextInput  disAble={true}  placeholder="Layihənin adı" label="Layihənin adı" />
+  </Grid>  
 
 
   <Grid item xs={6}>

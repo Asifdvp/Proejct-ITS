@@ -10,6 +10,7 @@ const TextInput: React.FC<ITextInput> = ({
   return (
     <TextField
       fullWidth
+      defaultValue= {disAble ? "Hello World" : null }
       placeholder={placeholder}
       label={label}
       disabled={disAble}
