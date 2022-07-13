@@ -54,6 +54,7 @@ else{
           ref={inputRef}
           label="Status"
           placeholder="Status"
+          className="statusInput"
         />
       )}
     />

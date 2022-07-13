@@ -11,7 +11,7 @@
     padding: 0 !important;
   }
   .MuiInputLabel-shrink {
-    color: #292d32 !important;
+    color: #292d32 ;
     opacity: 1;
     font-size: 16px;
   }
@@ -19,7 +19,7 @@
     padding: 0 ;
     .MuiOutlinedInput-input, .MuiSelect-select, .MuiSelect-outlined{
       height: auto;
-      color: #292d32 !important ;
+      color: #292d32  ;
       border-width: 0.4px !important;
       font-family: "Poppins" !important;
       font-style: normal;
@@ -128,6 +128,19 @@ opacity: 0.4;
 // }
 
 
-.white{
-  color: red !important;
+.statusInput{
+  .MuiInputLabel-root ,.MuiInputLabel-shrink {
+    color: #292d32 ;
+   background-color: transparent;
+ 
+  }
+  .MuiOutlinedInput-input ,.MuiInputBase-input{
+    color: white !important;
+  }
+  .MuiOutlinedI nput-input ,.MuiInputBase-input::placeholder{
+    color: #292d32;
+  }
+  .MuiAutocomplete-clearIndicator{
+    color: white !important;
+  }
 }
