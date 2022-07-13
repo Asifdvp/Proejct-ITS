@@ -9,8 +9,9 @@ import Calendar from "../../Assets/images/Calendar";
 export default function DateInput() {
   const [value, setValue] = React.useState<Date | null>(new Date());
   return (
-    <LocalizationProvider   dateAdapter={AdapterDateFns} >
+    <LocalizationProvider  dateAdapter={AdapterDateFns} >
         <DesktopDatePicker 
+        
           label="Başlama Tarixi"
           inputFormat="dd.MM.yy"
           value={value}
