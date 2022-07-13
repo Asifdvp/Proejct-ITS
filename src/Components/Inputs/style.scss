@@ -17,11 +17,11 @@
     opacity: 1;
     font-size: 16px;
   }
-  .MuiOutlinedInput-root {
-    padding: 0 16px 0 0;
+  .MuiOutlinedInput-root{
+    padding: 0 ;
     .MuiOutlinedInput-input, .MuiSelect-select, .MuiSelect-outlined{
       height: auto;
-      padding: 16px 0 16px 16px;
+      padding: 16px;
       color: #292d32 !important ;
       border-width: 0.4px !important;
       font-family: "Poppins" !important;
@@ -79,3 +79,30 @@
  .MuiMenuItem-root ,.MuiMenuItem-gutters ,.Mui-selected ,.MuiButtonBase-root ,.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root{
   color: #292d32 !important;
  }
+   
+
+ .css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root.Mui-selected{
+  background-color: #068FDB !important;
+  color: white !important;
+ }
+ .MuiMenuItem-root ,.MuiMenuItem-gutters ,.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root{
+  &:hover{
+    background-color: #068FDB !important;
+    color: white !important;
+  }
+ }
+ .MuiMenuItem-root ,.MuiMenuItem-gutters  ,.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root{
+  background-color: white !important;
+ }
+ .MuiPickersDay-root.Mui-selected{
+  color: white !important;
+ }
+
+
+
+
+//
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root.Mui-selected{
+  background-color: #068FDB !important;
+  color: white !important;
+}

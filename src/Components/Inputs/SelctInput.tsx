@@ -4,6 +4,8 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select, { SelectChangeEvent } from '@mui/material/Select';
+// import  Arrow from "../../Assets/images/Arrow";
+
 export default function SelectInput() {
   const [age, setAge] = React.useState('');
 
@@ -12,11 +14,12 @@ export default function SelectInput() {
   };
 
   return (
-    <Box sx={{ minWidth: 120 }}>
+   
       <FormControl fullWidth>
         <InputLabel id="demo-simple-select-label">Age</InputLabel>
         <Select
           labelId="demo-simple-select-label"
+          // IconComponent = {Arrow}
           id="demo-simple-select"
           value={age}
           label="Age"
@@ -27,6 +30,6 @@ export default function SelectInput() {
           <MenuItem value={30}>Thirty</MenuItem>
         </Select>
       </FormControl>
-    </Box>
+
   );
 }
