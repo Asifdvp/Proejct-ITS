@@ -41,12 +41,14 @@
   border-width: 0.4px !important;
 }
 
-.MuiFormHelperText-root {
+.MuiFormHelperText-root, .css-1wc848c-MuiFormHelperText-root {
   font-family: "Poppins" !important;
   font-style: normal;
   font-weight: 400;
   font-size: 16px !important;
   line-height: 140%;
+  color: #000000;
+  opacity: 0.4;
 }
 
 .disAbled {
