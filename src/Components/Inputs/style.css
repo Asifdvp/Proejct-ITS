@@ -141,4 +141,8 @@
 }
 .statusInput .MuiAutocomplete-clearIndicator {
   color: white !important;
+}
+
+.MuiAutocomplete-option[data-focus=true] {
+  background-color: red;
 }/*# sourceMappingURL=style.css.map */
