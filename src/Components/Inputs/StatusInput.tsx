@@ -13,7 +13,7 @@ export default function StatusInput() {
     { label: "Bağlı" },
   ]);
   const changeColor = (event:any,value: any) => {
-    console.log(event.target.style.color)
+
 if(value !== null){
   switch (value.label) {
     case "Açıq":
@@ -54,7 +54,6 @@ else{
           ref={inputRef}
           label="Status"
           placeholder="Status"
-          className="aaaaaaaaaaaaaaastatusInput"
         />
       )}
     />

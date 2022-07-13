@@ -112,4 +112,8 @@
 
 .MuiAutocomplete-listbox li .checkIcon {
   color: #0F3673;
+}
+
+.white {
+  color: red !important;
 }/*# sourceMappingURL=style.css.map */
