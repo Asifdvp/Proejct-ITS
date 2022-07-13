@@ -107,6 +107,7 @@
 
 .MuiAutocomplete-popper li:hover {
   background-color: #068FDB !important;
+  color: white;
 }
 
 .MuiAutocomplete-listbox li .checkIcon {
