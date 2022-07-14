@@ -1,5 +1,6 @@
-@import "../../Assets//Fonts/Font.css";
-.MuiFormControl-root, .MuiTextField-root {
+@import "../../Common/Fonts/Font.css";
+.MuiFormControl-root,
+.MuiTextField-root {
   width: 100%;
 }
 
@@ -27,7 +28,9 @@
 .MuiOutlinedInput-root {
   padding: 16px;
 }
-.MuiOutlinedInput-root .MuiOutlinedInput-input, .MuiOutlinedInput-root .MuiSelect-select, .MuiOutlinedInput-root .MuiSelect-outlined {
+.MuiOutlinedInput-root .MuiOutlinedInput-input,
+.MuiOutlinedInput-root .MuiSelect-select,
+.MuiOutlinedInput-root .MuiSelect-outlined {
   height: auto;
   color: #292d32;
   border-width: 0.4px !important;
@@ -41,7 +44,9 @@
   border-color: #0f3673;
   border-width: 0.4px;
 }
-.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline, .MuiOutlinedInput-root .MuiSelect-select, .MuiOutlinedInput-root .MuiSelect-outlined {
+.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline,
+.MuiOutlinedInput-root .MuiSelect-select,
+.MuiOutlinedInput-root .MuiSelect-outlined {
   border-color: #0f3673 !important;
 }
 
@@ -50,7 +55,8 @@
   border-width: 0.4px !important;
 }
 
-.MuiFormHelperText-root, .css-1wc848c-MuiFormHelperText-root {
+.MuiFormHelperText-root,
+.css-1wc848c-MuiFormHelperText-root {
   font-family: "Poppins" !important;
   font-style: normal;
   font-weight: 400;
@@ -87,21 +93,29 @@
   border: none !important;
 }
 
-.MuiMenuItem-root, .MuiMenuItem-gutters, .Mui-selected, .MuiButtonBase-root, .css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+.MuiMenuItem-root,
+.MuiMenuItem-gutters,
+.Mui-selected,
+.MuiButtonBase-root,
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
   color: #292d32 !important;
 }
 
 .css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root.Mui-selected {
-  background-color: #068FDB !important;
+  background-color: #068fdb !important;
   color: white !important;
 }
 
-.MuiMenuItem-root:hover, .MuiMenuItem-gutters:hover, .css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root:hover {
-  background-color: #068FDB !important;
+.MuiMenuItem-root:hover,
+.MuiMenuItem-gutters:hover,
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root:hover {
+  background-color: #068fdb !important;
   color: white !important;
 }
 
-.MuiMenuItem-root, .MuiMenuItem-gutters, .css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+.MuiMenuItem-root,
+.MuiMenuItem-gutters,
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
   background-color: white !important;
 }
 
@@ -110,24 +124,26 @@
 }
 
 .css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root.Mui-selected {
-  background-color: #068FDB !important;
+  background-color: #068fdb !important;
   color: white !important;
 }
 
 .MuiAutocomplete-popper li:hover {
-  background-color: #068FDB !important;
+  background-color: #068fdb !important;
   color: white;
 }
 
 .MuiAutocomplete-listbox li .checkIcon {
-  color: #0F3673;
+  color: #0f3673;
 }
 
-.statusInput .MuiInputLabel-root, .statusInput .MuiInputLabel-shrink {
+.statusInput .MuiInputLabel-root,
+.statusInput .MuiInputLabel-shrink {
   color: #292d32;
   background-color: transparent;
 }
-.statusInput .MuiOutlinedInput-input, .statusInput .MuiInputBase-input {
+.statusInput .MuiOutlinedInput-input,
+.statusInput .MuiInputBase-input {
   color: white !important;
 }
 .statusInput .MuiInputBase-input::-moz-placeholder {
@@ -136,7 +152,8 @@
 .statusInput .MuiInputBase-input:-ms-input-placeholder {
   color: #292d32;
 }
-.statusInput .MuiOutlinedI nput-input, .statusInput .MuiInputBase-input::placeholder {
+.statusInput .MuiOutlinedI nput-input,
+.statusInput .MuiInputBase-input::placeholder {
   color: #292d32;
 }
 .statusInput .MuiAutocomplete-clearIndicator {

@@ -1,66 +1,69 @@
-@import "../../Assets//Fonts/Font.css";
-.MuiFormControl-root ,.MuiTextField-root{
+@import "../../Common/Fonts/Font.css";
+.MuiFormControl-root,
+.MuiTextField-root {
   width: 100%;
 }
-  .MuiInputLabel-root {
+.MuiInputLabel-root {
+  font-family: "Poppins" !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #292d32 !important;
+  opacity: 0.4;
+  padding: 0 !important;
+}
+.MuiInputLabel-shrink {
+  color: #292d32;
+  opacity: 1;
+  font-size: 16px;
+}
+.textAreaPadding .MuiOutlinedInput-root {
+  padding: 16px 2px 16px 16px;
+}
+.MuiOutlinedInput-root {
+  padding: 16px;
+  .MuiOutlinedInput-input,
+  .MuiSelect-select,
+  .MuiSelect-outlined {
+    height: auto;
+    color: #292d32;
+    border-width: 0.4px !important;
     font-family: "Poppins" !important;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 100%;
-    color: #292d32 !important;
-    opacity: 0.4;
-    padding: 0 !important;
+    padding: 0;
   }
-  .MuiInputLabel-shrink {
-    color: #292d32 ;
-    opacity: 1;
-    font-size: 16px;
+  .MuiOutlinedInput-notchedOutline {
+    border-color: #0f3673;
+    border-width: 0.4px;
   }
-  .textAreaPadding  .MuiOutlinedInput-root{
-    padding: 16px 2px 16px 16px;
-  }
-  .MuiOutlinedInput-root{
-    padding: 16px ;
-    .MuiOutlinedInput-input, .MuiSelect-select, .MuiSelect-outlined{
-      height: auto;
-      color: #292d32  ;
-      border-width: 0.4px !important;
-      font-family: "Poppins" !important;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-padding: 0;
-    }
-    .MuiOutlinedInput-notchedOutline {
-      border-color: #0f3673;
-      border-width: 0.4px;
-    }
-    &:hover .MuiOutlinedInput-notchedOutline, .MuiSelect-select, .MuiSelect-outlined {
-      border-color: #0f3673 !important;
-    }
-  }
-  .Mui-focused .MuiOutlinedInput-notchedOutline {
+  &:hover .MuiOutlinedInput-notchedOutline,
+  .MuiSelect-select,
+  .MuiSelect-outlined {
     border-color: #0f3673 !important;
-    border-width: 0.4px !important;
   }
+}
+.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #0f3673 !important;
+  border-width: 0.4px !important;
+}
 
- 
-
-.MuiFormHelperText-root ,.css-1wc848c-MuiFormHelperText-root{
+.MuiFormHelperText-root,
+.css-1wc848c-MuiFormHelperText-root {
   font-family: "Poppins" !important;
   font-style: normal;
   font-weight: 400;
   font-size: 16px !important;
   line-height: 140%;
-color: #000000;
-opacity: 0.4;
+  color: #000000;
+  opacity: 0.4;
 }
 
 .disAbled {
   background: rgba(15, 54, 115, 0.1);
   border-radius: 4px;
-
 }
 ::-webkit-scrollbar {
   background: transparent;
@@ -80,74 +83,76 @@ opacity: 0.4;
 }
 /* Handle on hover */
 
-  .MuiButtonBase-root {
-    border: none !important;
-
-  }
- .MuiMenuItem-root ,.MuiMenuItem-gutters ,.Mui-selected ,.MuiButtonBase-root ,.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root{
+.MuiButtonBase-root {
+  border: none !important;
+}
+.MuiMenuItem-root,
+.MuiMenuItem-gutters,
+.Mui-selected,
+.MuiButtonBase-root,
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
   color: #292d32 !important;
- }
-   
+}
 
- .css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root.Mui-selected{
-  background-color: #068FDB !important;
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root.Mui-selected {
+  background-color: #068fdb !important;
   color: white !important;
- }
- .MuiMenuItem-root ,.MuiMenuItem-gutters ,.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root{
-  &:hover{
-    background-color: #068FDB !important;
+}
+.MuiMenuItem-root,
+.MuiMenuItem-gutters,
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+  &:hover {
+    background-color: #068fdb !important;
     color: white !important;
   }
- }
- .MuiMenuItem-root ,.MuiMenuItem-gutters  ,.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root{
+}
+.MuiMenuItem-root,
+.MuiMenuItem-gutters,
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
   background-color: white !important;
- }
- .MuiPickersDay-root.Mui-selected{
+}
+.MuiPickersDay-root.Mui-selected {
   color: white !important;
- }
-
-
-
+}
 
 //
-.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root.Mui-selected{
-  background-color: #068FDB !important;
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root.Mui-selected {
+  background-color: #068fdb !important;
   color: white !important;
 }
 // .selectInput{
 //   .MuiSelect-select{
 //     background-color: red !important;
 //   }
- 
+
 // }
 .MuiAutocomplete-popper li:hover {
-  background-color: #068FDB !important;
+  background-color: #068fdb !important;
   color: white;
 }
-.MuiAutocomplete-listbox li .checkIcon	{
-  color: #0F3673  ;
-
+.MuiAutocomplete-listbox li .checkIcon {
+  color: #0f3673;
 }
 
-
-.statusInput{
-  .MuiInputLabel-root ,.MuiInputLabel-shrink {
-    color: #292d32 ;
-   background-color: transparent;
- 
+.statusInput {
+  .MuiInputLabel-root,
+  .MuiInputLabel-shrink {
+    color: #292d32;
+    background-color: transparent;
   }
-  .MuiOutlinedInput-input ,.MuiInputBase-input{
+  .MuiOutlinedInput-input,
+  .MuiInputBase-input {
     color: white !important;
   }
-  .MuiOutlinedI nput-input ,.MuiInputBase-input::placeholder{
+  .MuiOutlinedI nput-input,
+  .MuiInputBase-input::placeholder {
     color: #292d32;
   }
-  .MuiAutocomplete-clearIndicator{
+  .MuiAutocomplete-clearIndicator {
     color: white !important;
   }
-
 }
 
-.MuiAutocomplete-option[data-focus=false]{
+.MuiAutocomplete-option[data-focus="false"] {
   background-color: red !important;
 }

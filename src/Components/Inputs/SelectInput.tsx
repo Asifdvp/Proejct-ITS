@@ -3,7 +3,7 @@ import TextField from '@mui/material/TextField';
 import Autocomplete from '@mui/material/Autocomplete';
 import Arrow from '../../Assets/images/Arrow';
 
-export default function SelctInput() {
+export default function SelectInput() {
   return (
     <Autocomplete
       disablePortal

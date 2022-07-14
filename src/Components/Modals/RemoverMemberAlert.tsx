@@ -5,7 +5,7 @@ import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
-
+import './style.css'
 export default function RemoveMemberAlert() {
   const [open, setOpen] = React.useState(false);
 
@@ -23,8 +23,7 @@ export default function RemoveMemberAlert() {
         Open alert dialog
       </Button>
       <Dialog
-      BackdropProps={{style:{background: 'rgba(244, 250, 255, 0.75)',
-        backdropFilter: 'blur(8px)'}}}
+      
       className='modalComponent'
         open={open}
         onClose={handleClose}
@@ -36,8 +35,7 @@ export default function RemoveMemberAlert() {
         </DialogTitle>
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
-            Let Google help apps determine location. This means sending anonymous
-            location data to Google, even when no apps are running.
+         f
           </DialogContentText>
         </DialogContent>
         <DialogActions>
