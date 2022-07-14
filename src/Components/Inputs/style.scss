@@ -1,51 +1,45 @@
 @import "../../Common/Fonts/Font.css";
-*{
+* {
   font-family: Poppins !important;
 }
-
-
-
 .MuiFormControl-root,
 .MuiTextField-root {
   width: 100%;
-}
-.MuiInputLabel-root {
-  top: -3px !important;
-  font-family: Poppins !important;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 100%;
-  color: #292d32 !important;
-  opacity: 0.4;
-  // padding: 0 !important;
-}
-.MuiInputLabel-shrink {
-  color: #292d32;
-  opacity: 1;
-  font-size: 16px;
-}
-.textAreaPadding .MuiOutlinedInput-root {
-  padding: 16px 2px 16px 16px;
-  height: auto;
-  .MuiOutlinedInput-input{
-    height: auto !important;
-  }
-}
-.MuiOutlinedInput-root {
-  padding: 16px !important;
-  .MuiOutlinedInput-input,
-  .MuiSelect-select,
-  .MuiSelect-outlined {
-    height: auto;
-    color: #292d32;
-    border-width: 0.4px !important;
-    font-family: "Poppins" !important;
+  .MuiInputLabel-root {
+    font-family: Poppins;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    padding: 0 !important;
-    height: 16px !important;
+    line-height: 100%;
+    color: #292d32;
+    opacity: 0.4;
+    &.Mui-focused {
+      color: #292d32;
+      opacity: 1;
+    }
+  }
+  .MuiOutlinedInput-root {
+    padding: 16px !important;
+    .MuiOutlinedInput-input,
+    .MuiSelect-select,
+    .MuiSelect-outlined {
+      height: auto;
+      color: #292d32;
+      border-width: 0.4px !important;
+      font-family: "Poppins" !important;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      padding: 0 !important;
+      height: 16px !important;
+    }
+  }
+
+  .textAreaPadding .MuiOutlinedInput-root {
+    padding: 16px 2px 16px 16px;
+    .MuiOutlinedInput-input {
+      height: auto !important;
+    }
   }
   .MuiOutlinedInput-notchedOutline {
     border-color: #0f3673;
@@ -142,24 +136,38 @@
 }
 
 .statusInput {
-  .MuiInputLabel-root,
-  .MuiInputLabel-shrink {
-    color: #292d32;
-    top: -3px;
-    background-color: transparent;
-  }
-  .MuiOutlinedInput-input,
-  .MuiInputBase-input {
-    color: white !important;
-  }
-  .MuiOutlinedI nput-input,
-  .MuiInputBase-input::placeholder {
-    color: #292d32;
-  }
-  .MuiAutocomplete-clearIndicator {
-    color: white !important;
+  .MuiInputLabel-root {
+    &.MuiFormLabel-filled {
+      top: -3px;
+    }
+    &.Mui-focused {
+      top: -3px;
+      color: #292d32;
+    }
+  }.MuiOutlinedInput-root{
+    .MuiOutlinedInput-input, .MuiInputBase-input{
+      color: white;
+    }
+   
+    .MuiAutocomplete-endAdornment {
+      .MuiAutocomplete-clearIndicator{
+        .MuiSvgIcon-root{
+          color: white;
+        }
+      }
+     
+    }
   }
 }
+
+.MuiOutlinedInput-input,
+.MuiInputBase-input::placeholder {
+  color: #292d32;
+}
+// .MuiAutocomplete-clearIndicator {
+//   color: white !important;
+// }
+// }
 
 .MuiAutocomplete-option[data-focus="false"] {
   background-color: red !important;
