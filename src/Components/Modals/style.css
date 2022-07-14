@@ -1,7 +1,4 @@
-.modaComponent .MuiPaper-root, .modaComponent .MuiPaper-elevation, .modaComponent .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
-  background: white;
-}
-
 .MuiDialog-container, .MuiDialog-scrollPaper, .css-hz1bth-MuiDialog-container {
-  background: rgba(244, 250, 255, 0.75);
+  background-color: white;
+  backdrop: 0px;
 }/*# sourceMappingURL=style.css.map */

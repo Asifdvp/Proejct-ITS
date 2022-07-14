@@ -1,18 +1,22 @@
 @import "../../Common/Fonts/Font.css";
+* {
+  font-family: Poppins !important;
+}
+
 .MuiFormControl-root,
 .MuiTextField-root {
   width: 100%;
 }
 
 .MuiInputLabel-root {
-  font-family: "Poppins" !important;
+  top: -3px !important;
+  font-family: Poppins !important;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 100%;
   color: #292d32 !important;
   opacity: 0.4;
-  padding: 0 !important;
 }
 
 .MuiInputLabel-shrink {
@@ -23,10 +27,14 @@
 
 .textAreaPadding .MuiOutlinedInput-root {
   padding: 16px 2px 16px 16px;
+  height: auto;
+}
+.textAreaPadding .MuiOutlinedInput-root .MuiOutlinedInput-input {
+  height: auto !important;
 }
 
 .MuiOutlinedInput-root {
-  padding: 16px;
+  padding: 16px !important;
 }
 .MuiOutlinedInput-root .MuiOutlinedInput-input,
 .MuiOutlinedInput-root .MuiSelect-select,
@@ -38,7 +46,8 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  padding: 0;
+  padding: 0 !important;
+  height: 16px !important;
 }
 .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
   border-color: #0f3673;
@@ -140,6 +149,7 @@
 .statusInput .MuiInputLabel-root,
 .statusInput .MuiInputLabel-shrink {
   color: #292d32;
+  top: -3px;
   background-color: transparent;
 }
 .statusInput .MuiOutlinedInput-input,

@@ -12,14 +12,14 @@ import RemoveMemberAlert from './Components/Modals/RemoverMemberAlert';
 function App() {
   return (
     <div className="App">
-        {/* <Grid container spacing={2}>
-        <Grid item xs={4}>
+        <Grid container spacing={2}>
+        <Grid item xs={2}>
         <CheckSelect/>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={2}>
         <SelectInput />
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={2}>
         <DateInput/>
         </Grid>
         <Grid item xs={4}>
@@ -31,8 +31,8 @@ function App() {
         <Grid item xs={4}>
         <StatusInput/>
         </Grid>
-      </Grid> */}
-      <RemoveMemberAlert/>
+      </Grid>
+      {/* <RemoveMemberAlert/> */}
     </div>
 )};
 export default App;
