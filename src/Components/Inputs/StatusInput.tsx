@@ -39,6 +39,7 @@ else{
   };
   return (
     <Autocomplete
+    disableClearable
       disablePortal
       fullWidth
       id="combo-box-demo"

@@ -101,24 +101,27 @@
 }
 
 .disAbled {
+  border: none !important;
+  outline: none !important;
   background: rgba(15, 54, 115, 0.1);
   border-radius: 4px;
 }
 .disAbled .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-disabled {
   color: #292d32;
 }
-.disAbled .MuiOutlinedInput-root, .disAbled .Mui-disabled {
+.disAbled .MuiOutlinedInput-root,
+.disAbled .Mui-disabled {
   border: none !important;
   outline: none !important;
 }
 .disAbled .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline,
 .disAbled .MuiOutlinedInput-root .MuiSelect-select,
-.disAbled .MuiOutlinedInput-root .MuiSelect-outlined, .disAbled .Mui-disabled:hover .MuiOutlinedInput-notchedOutline,
+.disAbled .MuiOutlinedInput-root .MuiSelect-outlined,
+.disAbled .Mui-disabled:hover .MuiOutlinedInput-notchedOutline,
 .disAbled .Mui-disabled .MuiSelect-select,
 .disAbled .Mui-disabled .MuiSelect-outlined {
-  outline: none;
-  border: none !important;
-  border-color: #000000 !important;
+  border-color: #0f3673 !important;
+  opacity: 0.4;
 }
 
 ::-webkit-scrollbar {
@@ -194,7 +197,8 @@
   top: -3px;
   color: #292d32;
 }
-.statusInput .MuiOutlinedInput-root .MuiOutlinedInput-input, .statusInput .MuiOutlinedInput-root .MuiInputBase-input {
+.statusInput .MuiOutlinedInput-root .MuiOutlinedInput-input,
+.statusInput .MuiOutlinedInput-root .MuiInputBase-input {
   color: white;
 }
 .statusInput .MuiOutlinedInput-root .MuiAutocomplete-endAdornment .MuiAutocomplete-clearIndicator .MuiSvgIcon-root {
@@ -212,8 +216,4 @@
 .MuiOutlinedInput-input,
 .MuiInputBase-input::placeholder {
   color: #292d32;
-}
-
-.MuiAutocomplete-option[data-focus=false] {
-  background-color: red !important;
 }/*# sourceMappingURL=style.css.map */

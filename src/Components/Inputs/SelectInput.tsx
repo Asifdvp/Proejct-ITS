@@ -8,15 +8,31 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select, { SelectChangeEvent } from '@mui/material/Select';
 import './style.css'
-export default function SelectInput() {
-  const [age, setAge] = React.useState('');
 
-  const handleChange = (event: SelectChangeEvent) => {
-    setAge(event.target.value as string);
-  };
+
+
+
+
+
+
+
+export default function SelectInput() {
+  // const [age, setAge] = React.useState('');
+
+  // const handleChange = (event: SelectChangeEvent) => {
+  //   setAge(event.target.value as string);
+  // };
+
+
+
+
+
+
+
+
   return (
     <>
-    <FormControl fullWidth>
+    {/* <FormControl fullWidth>
       <InputLabel id="demo-simple-select-label">Age</InputLabel>
       <Select
         labelId="demo-simple-select-label"
@@ -31,19 +47,25 @@ export default function SelectInput() {
         <MenuItem value={20}>Twenty</MenuItem>
         <MenuItem value={30}>Thirty</MenuItem>
       </Select>
-    </FormControl>
+    </FormControl> */}
 
 
-
-
-    {/* <Autocomplete
+{/* 
+ <Autocomplete
       disablePortal
+      disableClearable
       fullWidth
       id="combo-box-demo"
       options={top100Films}
      popupIcon={<Arrow/>}
       renderInput={(params) => <TextField {...params} label="Movie" />}
-    /> */}
+    />  */}
+
+    <div>
+     
+    </div>
+ 
+
     </>
   );
 }
