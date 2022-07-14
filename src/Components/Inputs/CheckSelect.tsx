@@ -30,6 +30,7 @@ export default function CheckSelect() {
       id="checkboxes-tags-demo"
       options={top100Films}
       disableCloseOnSelect
+<<<<<<< HEAD
       onChange={() => {
         console.log(check.current);
       }}
@@ -37,9 +38,19 @@ export default function CheckSelect() {
       getOptionLabel={(option) => option.title}
       renderOption={(props, option, { selected }) => (
 <<<<<<< HEAD
+=======
+
+      onChange={()=>{
+        console.log(check.current)}}
+      popupIcon = {<Arrow/>}
+      getOptionLabel={(option) => option.title}
+      renderOption={(props, option, { selected }) => (
+>>>>>>> 37d1b09c4605aee0e4997ba03ff9424b47f56074
         <li {...props} >
           <Checkbox 
+          ref={check}
           className='checkIcon'  
+<<<<<<< HEAD
           
             checkedIcon={<CheckBoxIcon fontSize="small"  />}
             style={{ marginRight: 8 ,color:"red"}}
@@ -51,6 +62,13 @@ export default function CheckSelect() {
             style={{ marginRight: 8 }}
 >>>>>>> 807525511702beec2d3456991980814111af797f
             checked={selected}
+=======
+            checkedIcon={<CheckBoxIcon fontSize="small"   />}
+            style={{ marginRight: 8,color:'#068FDB'}}
+            checked={selected}
+
+           
+>>>>>>> 37d1b09c4605aee0e4997ba03ff9424b47f56074
           />
           {option.title}
         </li>
