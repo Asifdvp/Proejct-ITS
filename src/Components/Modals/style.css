@@ -1,0 +1,31 @@
+@import '../../Common/Fonts/Font.css';
+.MuiModal-root .MuiBackdrop-root {
+  background: rgba(244, 250, 255, 0.55);
+  -webkit-backdrop-filter: blur(0px);
+          backdrop-filter: blur(0px);
+}
+.MuiModal-root .MuiBox-root {
+  border: none;
+  background: #FFFFFF;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  padding: 24px;
+}
+.MuiModal-root .MuiBox-root .MuiTypography-root {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  color: #068FDB;
+}
+
+.removeMember .MuiBox-root {
+  padding: 48px 63px 64px 63px;
+}
+.removeMember .MuiBox-root .MuiTypography-root {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #000000;
+}/*# sourceMappingURL=style.css.map */

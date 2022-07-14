@@ -20,7 +20,7 @@ const TextArea : React.FC<ITextArea> = ({
     <div>
     <TextField
     className='textAreaPadding'
-    rows={3}
+    rows={4}
     id="outlined-multiline-static"  
     multiline={true}
     sx={{width:"100%"}}
