@@ -36,8 +36,6 @@ if(value !== null){
 else{
   inputRef.current.style.backgroundColor = "white";
 }
-   
-  
   };
   return (
     <Autocomplete

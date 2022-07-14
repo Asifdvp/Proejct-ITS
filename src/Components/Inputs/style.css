@@ -1,4 +1,9 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+@import "../../Assets//Fonts/Font.css";
+=======
 @import "../../Common/Fonts/Font.css";
+>>>>>>> 37d1b09c4605aee0e4997ba03ff9424b47f56074
 .MuiFormControl-root, .MuiTextField-root {
   width: 100%;
 }
@@ -140,6 +145,12 @@
 }
 .statusInput .MuiAutocomplete-clearIndicator {
   color: white !important;
+<<<<<<< HEAD
+}/*# sourceMappingURL=style.css.map */
+=======
+/*# sourceMappingURL=style.css.map */
+>>>>>>> 807525511702beec2d3456991980814111af797f
+=======
 }
 
 .checkIcon {
@@ -149,3 +160,4 @@
 .MuiModal-root .MuiBackdrop-root {
   background-color: red !important;
 }/*# sourceMappingURL=style.css.map */
+>>>>>>> 37d1b09c4605aee0e4997ba03ff9424b47f56074
