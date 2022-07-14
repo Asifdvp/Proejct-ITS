@@ -7,7 +7,7 @@ import CheckBoxIcon from '@mui/icons-material/CheckBox';
 import  Arrow from "../../Assets/images/Arrow";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 const icon = <CheckBoxOutlineBlankIcon fontSize="small" />;
-const checkedIcon = <CheckBoxIcon fontSize="small"  sx={{color:"white"}}/>;
+const checkedIcon = <CheckBoxIcon fontSize="small" />;
 
 export default function CheckSelect() {
   return (
@@ -25,7 +25,7 @@ export default function CheckSelect() {
           <Checkbox 
           className='checkIcon'  
           
-            checkedIcon={checkedIcon}
+            checkedIcon={<CheckBoxIcon fontSize="small"  />}
             style={{ marginRight: 8 ,color:"red"}}
             checked={selected}
           

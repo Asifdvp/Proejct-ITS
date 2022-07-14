@@ -119,10 +119,6 @@
   color: white;
 }
 
-.MuiAutocomplete-listbox li .checkIcon {
-  color: #0F3673;
-}
-
 .statusInput .MuiInputLabel-root, .statusInput .MuiInputLabel-shrink {
   color: #292d32;
   background-color: transparent;
