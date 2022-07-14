@@ -56,7 +56,9 @@
 .MuiBox-root .selectInput {
   height: 48px !important;
 }
-.MuiFormControl-root .selectInput .MuiSelect-icon, .MuiFormControl-root .selectInput .MuiSelect-iconOutlined, .MuiFormControl-root .selectInput .css-3qbkez-MuiSelect-icon,
+.MuiFormControl-root .selectInput .MuiSelect-icon,
+.MuiFormControl-root .selectInput .MuiSelect-iconOutlined,
+.MuiFormControl-root .selectInput .css-3qbkez-MuiSelect-icon,
 .MuiTextField-root .selectInput .MuiSelect-icon,
 .MuiTextField-root .selectInput .MuiSelect-iconOutlined,
 .MuiTextField-root .selectInput .css-3qbkez-MuiSelect-icon,

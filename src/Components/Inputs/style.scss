@@ -21,7 +21,6 @@
   }
   .MuiOutlinedInput-root {
     padding: 16px !important;
-
     .MuiOutlinedInput-input,
     .MuiSelect-select,
     .MuiSelect-select,
@@ -40,9 +39,11 @@
 
   .selectInput {
     height: 48px !important;
-   .MuiSelect-icon ,.MuiSelect-iconOutlined ,.css-3qbkez-MuiSelect-icon{
-    top: 14px !important;
-   }
+    .MuiSelect-icon,
+    .MuiSelect-iconOutlined,
+    .css-3qbkez-MuiSelect-icon {
+      top: 14px !important;
+    }
   }
 
   //TextArea
@@ -94,7 +95,6 @@
     &:hover .MuiOutlinedInput-notchedOutline,
     .MuiSelect-select,
     .MuiSelect-outlined {
-     
       border-color: #0f3673 !important;
       opacity: 0.4;
     }
@@ -194,4 +194,3 @@
 .MuiInputBase-input::placeholder {
   color: #292d32;
 }
-
