@@ -34,7 +34,6 @@ export default function CheckSelect() {
         </li>
       )}
       renderInput={(params) => (
-        
         <TextField {...params} label="Checkboxes" placeholder="Favorites" />
       )}
     />

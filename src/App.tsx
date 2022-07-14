@@ -7,7 +7,9 @@ import TextInput from './Components/Inputs/TextInput';
 import TextArea from './Components/Inputs/TextArea';
 import StatusInput from './Components/Inputs/StatusInput';
 import Grid from '@mui/material/Grid';
-import RemoveMemberAlert from './Components/Modals/RemoverMemberAlert';
+import RemoveMemberAlert from './Components/Modals/ModalComponent';
+import Res from './Components/Modals/Res';
+import Asif from './Components/Modals/asif';
 
 function App() {
   return (
@@ -32,7 +34,9 @@ function App() {
         <StatusInput/>
         </Grid>
       </Grid>
-      {/* <RemoveMemberAlert/> */}
+      
+      {/* <Res/> */}
+     
     </div>
 )};
 export default App;
