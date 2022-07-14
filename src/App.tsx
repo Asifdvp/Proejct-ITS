@@ -1,5 +1,4 @@
 import React from 'react';
-<<<<<<< HEAD
 import TextInput from './Components/Inputs/TextInput';
 import './App.css';
 import Grid from '@mui/material/Grid';
@@ -44,18 +43,6 @@ function App() {
 
 </Grid> */}
     <RemoveMemberAlert/>
-=======
-import CreateTeamTable from './components/Table/CreateTeam';
-import LayiheDetallari from './components/Table/layiheDetallari';
-import ModalCreatTeamTable from './components/Table/ModalCreatTeamTable';
-
-function App() {
-  return (
-    <div className="App">
-      {/* <CreateTeamTable /> */}
-      {/* <LayiheDetallari /> */}
-      <ModalCreatTeamTable />
->>>>>>> Ramil
     </div>
   );
 }
