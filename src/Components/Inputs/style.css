@@ -143,6 +143,6 @@
   color: white !important;
 }
 
-.MuiAutocomplete-option[data-focus=true] {
-  background-color: red;
+.MuiAutocomplete-option[data-focus=false] {
+  background-color: red !important;
 }/*# sourceMappingURL=style.css.map */

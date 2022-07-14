@@ -6,10 +6,9 @@ import CheckBoxOutlineBlankIcon from '@mui/icons-material/CheckBoxOutlineBlank';
 import CheckBoxIcon from '@mui/icons-material/CheckBox';
 import  Arrow from "../../Assets/images/Arrow";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-const icon = <CheckBoxOutlineBlankIcon fontSize="small" />;
-
 
 export default function CheckSelect() {
+
   const check:any=React.useRef()
   return (
     <Autocomplete
@@ -19,6 +18,7 @@ export default function CheckSelect() {
       id="checkboxes-tags-demo"
       options={top100Films}
       disableCloseOnSelect
+
       onChange={()=>{
       
         
