@@ -1,53 +1,87 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-@import "../../Assets//Fonts/Font.css";
-=======
 @import "../../Common/Fonts/Font.css";
->>>>>>> 37d1b09c4605aee0e4997ba03ff9424b47f56074
-.MuiFormControl-root, .MuiTextField-root {
-  width: 100%;
+* {
+  font-family: Poppins !important;
 }
 
-.MuiInputLabel-root {
-  font-family: "Poppins" !important;
+.MuiFormControl-root,
+.MuiTextField-root,
+.MuiBox-root {
+  width: 100%;
+}
+.MuiFormControl-root .MuiInputLabel-root,
+.MuiTextField-root .MuiInputLabel-root,
+.MuiBox-root .MuiInputLabel-root {
+  font-family: Poppins;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 100%;
-  color: #292d32 !important;
+  color: #292d32;
   opacity: 0.4;
-  padding: 0 !important;
 }
-
-.MuiInputLabel-shrink {
+.MuiFormControl-root .MuiInputLabel-root.Mui-focused,
+.MuiTextField-root .MuiInputLabel-root.Mui-focused,
+.MuiBox-root .MuiInputLabel-root.Mui-focused {
   color: #292d32;
   opacity: 1;
-  font-size: 16px;
 }
-
-.textAreaPadding .MuiOutlinedInput-root {
-  padding: 16px 2px 16px 16px;
+.MuiFormControl-root .MuiOutlinedInput-root,
+.MuiTextField-root .MuiOutlinedInput-root,
+.MuiBox-root .MuiOutlinedInput-root {
+  padding: 16px !important;
 }
-
-.MuiOutlinedInput-root {
-  padding: 16px;
-}
-.MuiOutlinedInput-root .MuiOutlinedInput-input, .MuiOutlinedInput-root .MuiSelect-select, .MuiOutlinedInput-root .MuiSelect-outlined {
-  height: auto;
+.MuiFormControl-root .MuiOutlinedInput-root .MuiOutlinedInput-input,
+.MuiFormControl-root .MuiOutlinedInput-root .MuiSelect-select,
+.MuiFormControl-root .MuiOutlinedInput-root .MuiSelect-select,
+.MuiFormControl-root .MuiOutlinedInput-root .MuiSelect-outlined,
+.MuiTextField-root .MuiOutlinedInput-root .MuiOutlinedInput-input,
+.MuiTextField-root .MuiOutlinedInput-root .MuiSelect-select,
+.MuiTextField-root .MuiOutlinedInput-root .MuiSelect-select,
+.MuiTextField-root .MuiOutlinedInput-root .MuiSelect-outlined,
+.MuiBox-root .MuiOutlinedInput-root .MuiOutlinedInput-input,
+.MuiBox-root .MuiOutlinedInput-root .MuiSelect-select,
+.MuiBox-root .MuiOutlinedInput-root .MuiSelect-select,
+.MuiBox-root .MuiOutlinedInput-root .MuiSelect-outlined {
   color: #292d32;
   border-width: 0.4px !important;
   font-family: "Poppins" !important;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  padding: 0;
+  padding: 0 !important;
+  height: 16px;
 }
-.MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+.MuiFormControl-root .selectInput,
+.MuiTextField-root .selectInput,
+.MuiBox-root .selectInput {
+  height: 48px !important;
+}
+.MuiFormControl-root .textAreaPadding .MuiOutlinedInput-root,
+.MuiTextField-root .textAreaPadding .MuiOutlinedInput-root,
+.MuiBox-root .textAreaPadding .MuiOutlinedInput-root {
+  padding: 16px 2px 16px 16px;
+}
+.MuiFormControl-root .textAreaPadding .MuiOutlinedInput-root .MuiOutlinedInput-input,
+.MuiTextField-root .textAreaPadding .MuiOutlinedInput-root .MuiOutlinedInput-input,
+.MuiBox-root .textAreaPadding .MuiOutlinedInput-root .MuiOutlinedInput-input {
+  height: auto !important;
+}
+.MuiFormControl-root .MuiOutlinedInput-notchedOutline,
+.MuiTextField-root .MuiOutlinedInput-notchedOutline,
+.MuiBox-root .MuiOutlinedInput-notchedOutline {
   border-color: #0f3673;
   border-width: 0.4px;
 }
-.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline, .MuiOutlinedInput-root .MuiSelect-select, .MuiOutlinedInput-root .MuiSelect-outlined {
-  border-color: #0f3673;
+.MuiFormControl-root:hover .MuiOutlinedInput-notchedOutline,
+.MuiFormControl-root .MuiSelect-select,
+.MuiFormControl-root .MuiSelect-outlined,
+.MuiTextField-root:hover .MuiOutlinedInput-notchedOutline,
+.MuiTextField-root .MuiSelect-select,
+.MuiTextField-root .MuiSelect-outlined,
+.MuiBox-root:hover .MuiOutlinedInput-notchedOutline,
+.MuiBox-root .MuiSelect-select,
+.MuiBox-root .MuiSelect-outlined {
+  border-color: #0f3673 !important;
 }
 
 .Mui-focused .MuiOutlinedInput-notchedOutline {
@@ -55,7 +89,8 @@
   border-width: 0.4px !important;
 }
 
-.MuiFormHelperText-root, .css-1wc848c-MuiFormHelperText-root {
+.MuiFormHelperText-root,
+.css-1wc848c-MuiFormHelperText-root {
   font-family: "Poppins" !important;
   font-style: normal;
   font-weight: 400;
@@ -69,8 +104,21 @@
   background: rgba(15, 54, 115, 0.1);
   border-radius: 4px;
 }
-.disAbled .MuiOutlinedInput-notchedOutline {
-  border-color: #0F3673;
+.disAbled .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-disabled {
+  color: #292d32;
+}
+.disAbled .MuiOutlinedInput-root, .disAbled .Mui-disabled {
+  border: none !important;
+  outline: none !important;
+}
+.disAbled .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline,
+.disAbled .MuiOutlinedInput-root .MuiSelect-select,
+.disAbled .MuiOutlinedInput-root .MuiSelect-outlined, .disAbled .Mui-disabled:hover .MuiOutlinedInput-notchedOutline,
+.disAbled .Mui-disabled .MuiSelect-select,
+.disAbled .Mui-disabled .MuiSelect-outlined {
+  outline: none;
+  border: none !important;
+  border-color: #000000 !important;
 }
 
 ::-webkit-scrollbar {
@@ -95,21 +143,29 @@
   border: none !important;
 }
 
-.MuiMenuItem-root, .MuiMenuItem-gutters, .Mui-selected, .MuiButtonBase-root, .css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+.MuiMenuItem-root,
+.MuiMenuItem-gutters,
+.Mui-selected,
+.MuiButtonBase-root,
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
   color: #292d32 !important;
 }
 
 .css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root.Mui-selected {
-  background-color: #068FDB !important;
+  background-color: #068fdb !important;
   color: white !important;
 }
 
-.MuiMenuItem-root:hover, .MuiMenuItem-gutters:hover, .css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root:hover {
-  background-color: #068FDB !important;
+.MuiMenuItem-root:hover,
+.MuiMenuItem-gutters:hover,
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root:hover {
+  background-color: #068fdb !important;
   color: white !important;
 }
 
-.MuiMenuItem-root, .MuiMenuItem-gutters, .css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+.MuiMenuItem-root,
+.MuiMenuItem-gutters,
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
   background-color: white !important;
 }
 
@@ -118,46 +174,46 @@
 }
 
 .css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root.Mui-selected {
-  background-color: #068FDB !important;
+  background-color: #068fdb !important;
   color: white !important;
 }
 
 .MuiAutocomplete-popper li:hover {
-  background-color: #068FDB !important;
+  background-color: #068fdb !important;
   color: white;
 }
 
-.statusInput .MuiInputLabel-root, .statusInput .MuiInputLabel-shrink {
-  color: #292d32;
-  background-color: transparent;
-}
-.statusInput .MuiOutlinedInput-input, .statusInput .MuiInputBase-input {
-  color: white !important;
-}
-.statusInput .MuiInputBase-input::-moz-placeholder {
-  color: #292d32;
-}
-.statusInput .MuiInputBase-input:-ms-input-placeholder {
-  color: #292d32;
-}
-.statusInput .MuiOutlinedI nput-input, .statusInput .MuiInputBase-input::placeholder {
-  color: #292d32;
-}
-.statusInput .MuiAutocomplete-clearIndicator {
-  color: white !important;
-<<<<<<< HEAD
-}/*# sourceMappingURL=style.css.map */
-=======
-/*# sourceMappingURL=style.css.map */
->>>>>>> 807525511702beec2d3456991980814111af797f
-=======
+.MuiAutocomplete-listbox li .checkIcon {
+  color: #0f3673;
 }
 
-.checkIcon {
-  color: #068FDB !important;
+.statusInput .MuiInputLabel-root.MuiFormLabel-filled {
+  top: -3px;
+}
+.statusInput .MuiInputLabel-root.Mui-focused {
+  top: -3px;
+  color: #292d32;
+}
+.statusInput .MuiOutlinedInput-root .MuiOutlinedInput-input, .statusInput .MuiOutlinedInput-root .MuiInputBase-input {
+  color: white;
+}
+.statusInput .MuiOutlinedInput-root .MuiAutocomplete-endAdornment .MuiAutocomplete-clearIndicator .MuiSvgIcon-root {
+  color: white;
 }
 
-.MuiModal-root .MuiBackdrop-root {
+.MuiInputBase-input::-moz-placeholder {
+  color: #292d32;
+}
+
+.MuiInputBase-input:-ms-input-placeholder {
+  color: #292d32;
+}
+
+.MuiOutlinedInput-input,
+.MuiInputBase-input::placeholder {
+  color: #292d32;
+}
+
+.MuiAutocomplete-option[data-focus=false] {
   background-color: red !important;
 }/*# sourceMappingURL=style.css.map */
->>>>>>> 37d1b09c4605aee0e4997ba03ff9424b47f56074
