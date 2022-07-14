@@ -50,7 +50,6 @@ export default function SelectInput() {
     </FormControl> */}
 
 
-{/* 
  <Autocomplete
       disablePortal
       disableClearable
@@ -59,7 +58,7 @@ export default function SelectInput() {
       options={top100Films}
      popupIcon={<Arrow/>}
       renderInput={(params) => <TextField {...params} label="Movie" />}
-    />  */}
+    /> 
 
     <div>
      

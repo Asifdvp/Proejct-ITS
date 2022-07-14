@@ -40,9 +40,11 @@
 
   .selectInput {
     height: 48px !important;
-   
-   
+   .MuiSelect-icon ,.MuiSelect-iconOutlined ,.css-3qbkez-MuiSelect-icon{
+    top: 14px !important;
+   }
   }
+
   //TextArea
   .textAreaPadding .MuiOutlinedInput-root {
     padding: 16px 2px 16px 16px;

@@ -56,6 +56,15 @@
 .MuiBox-root .selectInput {
   height: 48px !important;
 }
+.MuiFormControl-root .selectInput .MuiSelect-icon, .MuiFormControl-root .selectInput .MuiSelect-iconOutlined, .MuiFormControl-root .selectInput .css-3qbkez-MuiSelect-icon,
+.MuiTextField-root .selectInput .MuiSelect-icon,
+.MuiTextField-root .selectInput .MuiSelect-iconOutlined,
+.MuiTextField-root .selectInput .css-3qbkez-MuiSelect-icon,
+.MuiBox-root .selectInput .MuiSelect-icon,
+.MuiBox-root .selectInput .MuiSelect-iconOutlined,
+.MuiBox-root .selectInput .css-3qbkez-MuiSelect-icon {
+  top: 14px !important;
+}
 .MuiFormControl-root .textAreaPadding .MuiOutlinedInput-root,
 .MuiTextField-root .textAreaPadding .MuiOutlinedInput-root,
 .MuiBox-root .textAreaPadding .MuiOutlinedInput-root {
