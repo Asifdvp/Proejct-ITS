@@ -13,8 +13,6 @@ export default function StatusInput() {
     { label: "Bağlı" },
   ]);
   const changeColor = (event:any,value: any) => {
-console.log(event.target)
-
 if(value !== null){
   switch (value.label) {
     case "Açıq":

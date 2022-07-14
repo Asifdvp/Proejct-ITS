@@ -20,19 +20,17 @@ export default function CheckSelect() {
       disableCloseOnSelect
 
       onChange={()=>{
-      
-        
         console.log(check.current)}}
       popupIcon = {<Arrow/>}
       getOptionLabel={(option) => option.title}
       renderOption={(props, option, { selected }) => (
-        <li {...props} ref={check}>
+        <li {...props} >
           <Checkbox 
+          ref={check}
           className='checkIcon'  
-            checkedIcon={<CheckBoxIcon fontSize="small"   sx={{color:"white"}}/>}
-            style={{ marginRight: 8 ,color:"red"}}
+            checkedIcon={<CheckBoxIcon fontSize="small"   />}
+            style={{ marginRight: 8,color:'#068FDB'}}
             checked={selected}
-          
 
            
           />

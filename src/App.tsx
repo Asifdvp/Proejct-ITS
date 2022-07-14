@@ -7,10 +7,11 @@ import DateInput from './Components/Inputs/DateInput';
 import SelectInput from './Components/Inputs/SelectInput';
 import CheckSelect from './Components/Inputs/CheckSelect';
 import StatusInput from './Components/Inputs/StatusInput';
+import RemoveMemberAlert from './Components/Modals/RemoveMemberAlert';
 function App() {
   return (
     <div className="App">
-<Grid container spacing={1.5} columns={12}>
+{/* <Grid container spacing={1.5} columns={12}>
 
  <Grid item xs={3}>
    <TextArea   placeholder="Layihənin adı" label="Layihənin adı" limit={5000}/>
@@ -40,8 +41,8 @@ function App() {
   </Grid>
 
 
-</Grid>
-   
+</Grid> */}
+    <RemoveMemberAlert/>
     </div>
   );
 }

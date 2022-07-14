@@ -1,4 +1,4 @@
-@import "../../Assets//Fonts/Font.css";
+@import "../../Common/Fonts/Font.css";
 .MuiFormControl-root ,.MuiTextField-root{
   width: 100%;
 }
@@ -37,7 +37,7 @@ padding: 0;
       border-width: 0.4px;
     }
     &:hover .MuiOutlinedInput-notchedOutline, .MuiSelect-select, .MuiSelect-outlined {
-      border-color: #0f3673 !important;
+      border-color: #0f3673 ;
     }
   }
   .Mui-focused .MuiOutlinedInput-notchedOutline {
@@ -60,7 +60,10 @@ opacity: 0.4;
 .disAbled {
   background: rgba(15, 54, 115, 0.1);
   border-radius: 4px;
-
+  .MuiOutlinedInput-notchedOutline {
+    border-color: #0F3673;
+ 
+  }
 }
 ::-webkit-scrollbar {
   background: transparent;
@@ -121,13 +124,10 @@ opacity: 0.4;
  
 // }
 .MuiAutocomplete-popper li:hover {
-  background-color: #068FDB !important;
+  background-color: #068FDB  !important;
   color: white;
 }
-.MuiAutocomplete-listbox li .checkIcon	{
-  color: #0F3673  ;
 
-}
 
 
 .statusInput{
@@ -148,6 +148,14 @@ opacity: 0.4;
 
 }
 
-.MuiAutocomplete-option[data-focus=false]{
-  background-color: red !important;
+.checkIcon{
+  color: #068FDB !important;
 }
+
+.MuiModal-root{
+  background-color: red !important;
+
+  .MuiBackdrop-root{
+  background-color: red !important;
+  }
+  }
