@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="App">
       {/* <CreateTeamTable /> */}
-      {/* <LayiheDetallari /> */}
-      <ModalCreatTeamTable />
+      <LayiheDetallari />
+      {/* <ModalCreatTeamTable /> */}
     </div>
   );
 }
