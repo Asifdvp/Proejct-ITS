@@ -1,0 +1,46 @@
+@import '../../Common/Fonts/Font.css';
+.MuiButton-root.clearBtn, .MuiFab-root.clearBtn {
+  background: #FFFFFF;
+  border: 0.6px solid #0F3673;
+  box-shadow: none;
+  width: 34px;
+  height: auto;
+}
+.MuiButton-root.addBtn, .MuiFab-root.addBtn {
+  background: #6FC03D;
+  box-shadow: none;
+}
+.MuiButton-root.addBtn:hover, .MuiFab-root.addBtn:hover {
+  background: #6FC03D;
+}
+.MuiButton-root.containBtn, .MuiFab-root.containBtn {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  text-transform: capitalize;
+}
+.MuiButton-root.MuiButton-contain.containBtn, .MuiFab-root.MuiButton-contain.containBtn {
+  background-color: #068FDB;
+  color: #FFFFFF;
+}
+.MuiButton-root.MuiButton-contain.containBtn.Mui-disabled, .MuiFab-root.MuiButton-contain.containBtn.Mui-disabled {
+  background: #BBBBBB;
+  color: #FFFFFF;
+}
+
+.MuiButton-text.addBtnText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 16px;
+  line-height: 100%;
+  color: #292D32;
+}
+.MuiButton-text.addBtnText .addBtn.addTextBtn {
+  height: 20px;
+  width: 20px;
+  min-height: 20px;
+}/*# sourceMappingURL=style.css.map */
