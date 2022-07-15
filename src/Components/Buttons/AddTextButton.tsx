@@ -2,16 +2,19 @@ import { Button, Fab } from '@mui/material'
 import React from 'react'
 import AddIcon from '@mui/icons-material/Add';
 import './style.css';
-const Elave = () => {
+import AddButton from './AddButton';
+import AddTextButtonIcon from './AddTextButtonIcon';
+const AddTextButton = () => {
   return (
     <Button
+    className="addBtnText"
     variant="text"
     color="secondary"
-    startIcon={<AddIcon/>}
+    startIcon={<AddTextButtonIcon/>}
 >
 Əlavə Et
 </Button>
   )
 }
 
-export default Elave
+export default AddTextButton

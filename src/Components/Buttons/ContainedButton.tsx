@@ -1,15 +1,14 @@
 import * as React from 'react';
 import Button from '@mui/material/Button';
-import Stack from '@mui/material/Stack';
 import './style.css'
-export default function ContainedButton() {
+
+ function ContainedButton({paddingSize, text,variantName,disabled}:any) {
   return (
-   <>
-      <Button variant="contained" >Yadda Saxla</Button>
-    
-   </>
-   
+
+      <Button variant={variantName} className="containBtn"   disabled={disabled} sx={{padding: `${paddingSize}`}}>{text}</Button>
+  
    
  
   );
 }
+export default ContainedButton

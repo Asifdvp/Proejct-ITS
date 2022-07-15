@@ -5,7 +5,6 @@ import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import './style.css'
 import { Grid } from '@mui/material';
-import OutlinedButtons from '../Buttons/OutlinedButton';
 const style = {
   position: 'absolute' as 'absolute',
   top: '50%',
@@ -51,10 +50,10 @@ export default function RemoveMemberAlert() {
           <Grid item xs={3}>
               </Grid>
             <Grid item xs={3} sx={{marginRight:"16px"}}>
-              <OutlinedButtons/>
+             
               </Grid>
             <Grid item xs={3}>
-              <OutlinedButtons/>
+            
               </Grid>
             <Grid item xs={3}>
              
