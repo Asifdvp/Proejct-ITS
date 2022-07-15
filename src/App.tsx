@@ -22,9 +22,10 @@ function App() {
 {/* <RemoveMemberAlert/> */}
 
 {/* <Elave/>
-<AddButton/>
+
 <OutlinedButtons/>
 <ContainedButton/> */}
+<AddButton/>
 <ClearButton/>
 </div>
 

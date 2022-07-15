@@ -3,4 +3,14 @@
   background: #FFFFFF;
   border: 0.6px solid #0F3673;
   box-shadow: none;
+  width: 34px;
+  height: auto;
+}
+
+.MuiFab-root.addBtn {
+  background: #6FC03D;
+  box-shadow: none;
+}
+.MuiFab-root.addBtn:hover {
+  background: #6FC03D;
 }/*# sourceMappingURL=style.css.map */
