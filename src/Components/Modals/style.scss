@@ -10,7 +10,9 @@ backdrop-filter: blur(0px);
         background: #FFFFFF;
 border-radius: 6px;
 box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-padding: 24px;
+.MuiGrid-root {
+   padding: 0;
+}
 .MuiTypography-root{
     font-family: 'Poppins';
 font-style: normal;
@@ -27,9 +29,11 @@ color: #068FDB;
         .MuiTypography-root{
            
 font-weight: 400;
+line-height: 140%;
 font-size: 18px;
 text-align: center;
 color: #000000;
+
         }
     }
 }

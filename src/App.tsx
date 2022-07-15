@@ -6,45 +6,27 @@ import DateInput from './Components/Inputs/DateInput';
 import TextInput from './Components/Inputs/TextInput';
 import TextArea from './Components/Inputs/TextArea';
 import StatusInput from './Components/Inputs/StatusInput';
+import ClearIcon from '@mui/icons-material/Clear';
+import { Button, Fab, Grid } from '@mui/material';
+import RemoveMemberAlert from './Components/Modals/RemoveMemberAlert';
+import OutlinedButtons from './Components/Buttons/OutlinedButton';
+import ContainedButton from './Components/Buttons/ContainedButton';
+import AddIcon from '@mui/icons-material/Add';
 
-import { Grid } from '@mui/material';
+import ClearButton from './Components/Buttons/ClearButton';
+import AddButton from './Components/Buttons/AddButton';
+import Elave from './Components/Buttons/Elave';
 function App() {
   return (
     <div className="App">
-<Grid container spacing={1.5} columns={12}>
+{/* <RemoveMemberAlert/> */}
 
- <Grid item xs={3}>
-   <TextArea   placeholder="Layihənin adı" label="Layihənin adı" limit={5000}/>
-  </Grid> 
- <Grid item xs={3}>
-   <DateInput />
-  </Grid> 
- <Grid item xs={3}>
-   <TextInput  disAble={false}  placeholder="Layihənin adı" label="Layihənin adı"   />
-  </Grid> 
- <Grid item xs={3}>
-   <TextArea  limit={1200} placeholder="Layihənin adı" label="Layihənin adı"   />
-  </Grid> 
- <Grid item xs={3}>
-   <TextInput  disAble={true}  placeholder="Layihənin adı" label="Layihənin adı" />
-  </Grid>  
+{/* <Elave/>
+<AddButton/>
+<OutlinedButtons/>
+<ContainedButton/> */}
+<ClearButton/>
+</div>
 
-
-  <Grid item xs={3}>
- <SelectInput/>
-  </Grid>
-  <Grid item xs={3}>
- <CheckSelect/>
-  </Grid>
-  <Grid item xs={3}>
- <StatusInput/>
-  </Grid>
-
-
-</Grid>
-{/* <ModalComponent/> */}
-    {/* <Res/> */}
-    {/* <Asif/> */}
-    </div>
 )};
 export default App;

@@ -1,0 +1,51 @@
+@import '../../Common/Fonts/Font.css';
+// .MuiButton-outlined,.MuiButton-outlinedPrimary,.MuiButton-root{
+//     border: 1px solid #068FDB;
+//     border-radius: 6px;
+//     background-color: white;
+//     box-sizing: border-box;
+//     color: #068FDB;
+//     font-family: Poppins !important; 
+// font-style: normal;
+// font-weight: 700;
+// padding: 16px 0 !important;
+// font-size: 16px !important;
+// width: 100%;
+// text-transform: capitalize !important;
+// height: 48px;
+// line-height: 100%;
+// }
+// .MuiButton-contained{
+//     background-color: #068FDB !important;
+//     padding: 16px 0 !important;
+//     box-shadow: none !important;
+//     &:hover{
+//         box-shadow: none !important;   
+//     }
+// }
+// .MuiButton-root.clear {}
+//  .clear{
+//     color: #292D32 ;
+//   font-size: 16px;
+//     background: #FFFFFF  ;
+// border: 0.6px solid #0F3673 ;
+// .MuiSvgIcon-root {
+//     font-size: 16px;
+//    ;
+// }}
+// .addBtn{
+//     color: white;
+//     font-size: 25px;
+//     &:hover{
+//         background-color: #6FC03D !important;
+//     }
+//     .MuiSvgIcon-root{
+//         font-size: 30px !important;
+//        color: white !important;
+//     }
+// }
+.MuiFab-root.clearBtn{
+    background: #FFFFFF;
+border: 0.6px solid #0F3673;
+box-shadow: none;
+}
