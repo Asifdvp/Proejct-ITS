@@ -33,6 +33,14 @@
     color: #FFFFFF;
 }
 
+&.containBtn.sil{
+    color: #F05353;
+    border-color: #F05353;
+    &:hover{
+        background-color: rgb(240, 83, 83,0.1);
+   
+    }
+}
 }
 
   .MuiButton-text.addBtnText{

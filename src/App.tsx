@@ -53,6 +53,12 @@ function App() {
         variantName={"contain"}
         disabled={true}
       />
+<ContainedButton
+         text={"Sil"}
+        paddingSize={"16px 73px"}
+        variantName={"outlined"}
+        disabled={false}
+      />
 <AddTextButton/>
 </div>
 

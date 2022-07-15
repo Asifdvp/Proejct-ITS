@@ -29,6 +29,13 @@
   background: #BBBBBB;
   color: #FFFFFF;
 }
+.MuiButton-root.containBtn.sil, .MuiFab-root.containBtn.sil {
+  color: #F05353;
+  border-color: #F05353;
+}
+.MuiButton-root.containBtn.sil:hover, .MuiFab-root.containBtn.sil:hover {
+  background-color: rgba(240, 83, 83, 0.1);
+}
 
 .MuiButton-text.addBtnText {
   font-family: "Poppins";
