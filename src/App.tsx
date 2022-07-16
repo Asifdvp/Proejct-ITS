@@ -7,7 +7,7 @@ import ModalCreatTeamTable from './Components/Table/ModalCreatTeamTable';
 function App() {
   return (
     <div className="App">
-<RemoveMemberAlert/>
+<RemoveMemberAlert title="Adfdf" />
 {/* <CreateTeamTable/>
 <LayiheDetallariTable/> */}
 {/* <ModalCreatTeamTable/> */}

@@ -24,6 +24,9 @@
   color: #000000;
   margin-bottom: 32px;
 }
+.MuiModal-root .MuiBox-root .add-team-member-modal {
+  padding: 32px 36px 24px 24px;
+}
 
 .removeMember .MuiBox-root {
   box-sizing: border-box;

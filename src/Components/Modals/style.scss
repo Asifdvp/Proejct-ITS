@@ -18,16 +18,18 @@ box-shadow: none;
     max-width: 510px;
     text-align: center;
    }
-
 .MuiTypography-root{
-    font-family: 'Poppins';
+font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
 font-size: 23px;
 line-height: 100%;
 color: #000000;
-
 margin-bottom: 32px;
+}
+.add-team-member-modal{
+    padding: 32px 36px 24px 24px;
+
 }
     }
 }
