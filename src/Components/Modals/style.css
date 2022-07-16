@@ -11,23 +11,22 @@
   box-shadow: none;
 }
 .MuiModal-root .MuiBox-root .remove-member-alert {
-  width: 510px;
-  height: 242px;
   padding: 48px 63px 64px 63px;
-}
-.MuiModal-root .MuiBox-root .MuiGrid-root {
-  padding: 0;
+  max-width: 510px;
+  text-align: center;
 }
 .MuiModal-root .MuiBox-root .MuiTypography-root {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 23px;
   line-height: 100%;
-  color: #068FDB;
+  color: #000000;
+  margin-bottom: 32px;
 }
 
 .removeMember .MuiBox-root {
+  box-sizing: border-box;
   padding: 48px 63px 64px 63px;
 }
 .removeMember .MuiBox-root .MuiTypography-root {

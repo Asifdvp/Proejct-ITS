@@ -12,28 +12,30 @@ border-radius: 6px;
 box-shadow: none;
 
 //Bu hisse istifade etdiyimiz modal componentlerin yerlesidiyi divin classi olacaq 
+
 .remove-member-alert{
-    width: 510px;
-    height: 242px;
     padding: 48px 63px 64px 63px;
+    max-width: 510px;
+    text-align: center;
    }
-.MuiGrid-root {
-   padding: 0;
-  
-}
+
 .MuiTypography-root{
     font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
-font-size: 24px;
+font-size: 23px;
 line-height: 100%;
-color: #068FDB;
+color: #000000;
+
+margin-bottom: 32px;
 }
     }
 }
 .removeMember{
     .MuiBox-root{
+        box-sizing: border-box;
         padding: 48px 63px 64px 63px;
+       
         .MuiTypography-root{
            
 font-weight: 400;
