@@ -9,9 +9,6 @@ export default function RemoveMemberAlert() {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
-  React.useEffect(() => {
-    console.log(handleClose);
-  });
   return (
     <div>
       <Button onClick={handleOpen}>Open modal</Button>
