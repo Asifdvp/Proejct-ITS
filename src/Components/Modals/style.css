@@ -1,14 +1,19 @@
 @import '../../Common/Fonts/Font.css';
 .MuiModal-root .MuiBackdrop-root {
-  background: rgba(244, 250, 255, 0.55);
-  -webkit-backdrop-filter: blur(0px);
-          backdrop-filter: blur(0px);
+  background: rgba(244, 250, 255, 0.65);
+  -webkit-backdrop-filter: blur(2.5px);
+          backdrop-filter: blur(2.5px);
 }
 .MuiModal-root .MuiBox-root {
   border: none;
   background: #FFFFFF;
   border-radius: 6px;
-  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  box-shadow: none;
+}
+.MuiModal-root .MuiBox-root .remove-member-alert {
+  width: 510px;
+  height: 242px;
+  padding: 48px 63px 64px 63px;
 }
 .MuiModal-root .MuiBox-root .MuiGrid-root {
   padding: 0;

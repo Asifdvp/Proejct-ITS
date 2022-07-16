@@ -1,37 +1,31 @@
-import * as React from 'react';
-import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
-import Modal from '@mui/material/Modal';
-
+import * as React from "react";
+import Box from "@mui/material/Box";
+import Modal from "@mui/material/Modal";
+import ClearButton from "../Buttons/ClearButton";
 const style = {
-  position: 'absolute' as 'absolute',
-  top: '50%',
-  left: '50%',
-  transform: 'translate(-50%, -50%)',
-  width: 400,
-  bgcolor: 'background.paper',
-  border: '2px solid #000',
+  position: "absolute" as "absolute",
+  top: "50%",
+  left: "50%",
+  transform: "translate(-50%, -50%)",
+  border: "2px solid #000",
   boxShadow: 24,
-  p: 4,
 };
-
-export default function ModalComponent() {
-  const [open, setOpen] = React.useState(false);
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
-
+//Her istifade etdiyimiz modal zamani bu formada state daxil edir amma her componentde ferqli ad olmaq serti ile 
+// const [open, setOpen] = React.useState(false);
+// const handleOpen = () => setOpen(true);
+// const handleClose = () => setOpen(false);
+export default function ModalComponent(props: any) {
   return (
     <div>
-      <Button onClick={handleOpen}>Open modal</Button>
       <Modal
-        open={open}
-        onClose={handleClose}
+        open={props.open}
+        onClose={props.handleClose}
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
       >
         <Box sx={style}>
-  {/* {props.children} */}
+          {props.clear ? <ClearButton handleClose={props.handleClose} /> : null}
+          {props.children}
         </Box>
       </Modal>
     </div>
