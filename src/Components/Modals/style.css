@@ -1,4 +1,4 @@
-@import '../../Common/Fonts/Font.css';
+@import "../../Common/Fonts/Font.css";
 .MuiModal-root .MuiBackdrop-root {
   background: rgba(244, 250, 255, 0.65);
   -webkit-backdrop-filter: blur(2.5px);
@@ -6,36 +6,34 @@
 }
 .MuiModal-root .MuiBox-root {
   border: none;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 6px;
   box-shadow: none;
+  width: auto;
+}
+.MuiModal-root .MuiBox-root .MuiTypography-root {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
 }
 .MuiModal-root .MuiBox-root .remove-member-alert {
   padding: 48px 63px 64px 63px;
   max-width: 510px;
   text-align: center;
 }
-.MuiModal-root .MuiBox-root .MuiTypography-root {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 23px;
-  line-height: 100%;
-  color: #000000;
+.MuiModal-root .MuiBox-root .remove-member-alert .MuiTypography-root {
   margin-bottom: 32px;
+  color: black;
 }
 .MuiModal-root .MuiBox-root .add-team-member-modal {
-  padding: 32px 36px 24px 24px;
+  padding: 32px 24px 24px 24px;
+  width: 536px;
 }
-
-.removeMember .MuiBox-root {
-  box-sizing: border-box;
-  padding: 48px 63px 64px 63px;
+.MuiModal-root .MuiBox-root .add-team-member-modal .MuiTypography-root {
+  color: #068fdb;
 }
-.removeMember .MuiBox-root .MuiTypography-root {
-  font-weight: 400;
-  line-height: 140%;
-  font-size: 18px;
-  text-align: center;
-  color: #000000;
+.MuiModal-root .MuiBox-root .add-team-member-modal .MuiGrid-root .MuiContainer-root {
+  padding: 0;
 }/*# sourceMappingURL=style.css.map */

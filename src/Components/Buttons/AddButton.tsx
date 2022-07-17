@@ -5,7 +5,7 @@ import './style.css';
 import AddBtnIcon from '../../Assets/Svg/AddBtnIcon';
 const AddButton = () => {
   return (
-    <Fab className="addBtn"  aria-label="add" size="medium" >
+    <Fab className="addBtn"  aria-label="add"  >
    <AddBtnIcon/>
   </Fab>
   )

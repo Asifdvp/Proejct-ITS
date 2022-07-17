@@ -1,5 +1,7 @@
 .App {
   padding: 80px;
+}
+.App .container {
   background-color: #F4FAFF;
 }
 

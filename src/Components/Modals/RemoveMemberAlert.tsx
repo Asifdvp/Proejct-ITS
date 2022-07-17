@@ -13,7 +13,6 @@ const RemoveMemberAlert:FC<{title:any}> = ({title}) =>{
   return (
     <div>
       <Button onClick={handleOpenR}>Open modal</Button>
-
       <ModalComponent open={openR} handleClose={handleCloseR} clear={true}>
         <div className="remove-member-alert">
         <Typography variant="h2" gutterBottom component="div" >

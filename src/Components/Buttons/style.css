@@ -11,6 +11,10 @@
   top: -15px;
 }
 .MuiButton-root.addBtn, .MuiFab-root.addBtn {
+  min-width: 48px;
+  min-height: 48px;
+  width: 48px;
+  height: 48px;
   background: #6FC03D;
   box-shadow: none;
 }
