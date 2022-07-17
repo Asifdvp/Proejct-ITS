@@ -5,19 +5,11 @@ import Typography from "@mui/material/Typography";
 import ModalComponent from "./ModalComponent";
 import { FC } from "react";
 import "./style.css";
-<<<<<<< HEAD
-
-export default function RemoveMemberAlert() {
-  const [open, setOpen] = React.useState(false);
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
-=======
 import ContainedButton from "../Buttons/ContainedButton";
 const RemoveMemberAlert:FC<{title:any}> = ({title}) =>{
   const [openR, setOpen] = React.useState(false);
   const handleOpenR = () => setOpen(true);
   const handleCloseR = () => setOpen(false);
->>>>>>> Asif
   return (
     <div>
       <Button onClick={handleOpenR}>Open modal</Button>
