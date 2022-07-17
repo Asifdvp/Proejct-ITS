@@ -20,11 +20,12 @@ const AddTeamMmeberModal:FC= () =>{
       <Button onClick={handleOpenT}>Open modal</Button>
       <ModalComponent open={openT} handleClose={handleCloseT} clear={true}>
         <div className="add-team-member-modal">
-        <Grid container spacing={2}>
+        <Grid  alignItems="center" container >
         <Grid item xs={12}>
         <Typography variant="h2" gutterBottom component="div" >
         Komanda üzvü əlavə et</Typography>
         </Grid>
+        <Grid container columnSpacing={2} mb={3} mt={3}>
         <Grid item xs={5.2}>
        <SelectInput/>
         </Grid>
@@ -34,10 +35,12 @@ const AddTeamMmeberModal:FC= () =>{
         <Grid item xs={1.6}>
        <AddButton/>
         </Grid>
+        </Grid>
+      
         <Grid item xs={12}>
        <ModalCreatTeamTable/>
         </Grid>
-        <Grid item xs={12}   sx={{display:"flex"}}   justifyContent="flex-end"
+        <Grid item xs={12}   sx={{display:"flex"}} mt={2}  justifyContent="flex-end"
 
 >
 <ContainedButton  text={"Yadda Saxla"} variantName={"contain"} disabled={false} paddingSize={"16px 24px"} />

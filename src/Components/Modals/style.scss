@@ -1,6 +1,6 @@
 @import "../../Common/Fonts/Font.css";
 
-.MuiModal-root {
+.MuiModal-root.modal-component {
   .MuiBackdrop-root {
     background: rgba(244, 250, 255, 0.65);
     backdrop-filter: blur(2.5px);
