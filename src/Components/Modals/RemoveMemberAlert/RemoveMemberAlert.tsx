@@ -2,10 +2,11 @@ import * as React from "react";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-import ModalComponent from "./ModalComponent";
+import ModalComponent from "../ModalComponent";
 import { FC } from "react";
-import "./style.css";
-import ContainedButton from "../Buttons/ContainedButton";
+import "./index.css";
+import '../style.css'
+import ContainedButton from "../../Buttons/ContainedButton";
 const RemoveMemberAlert:FC<{title:any}> = ({title}) =>{
   const [openR, setOpen] = React.useState(false);
   const handleOpenR = () => setOpen(true);

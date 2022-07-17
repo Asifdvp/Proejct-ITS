@@ -1,0 +1,16 @@
+// @import "../../../Common/Fonts/Font.css";
+// @import "../../Common/Fonts/Font.css";
+.MuiModal-root.modal-component {
+  .MuiBox-root {
+    //Bu hisse istifade etdiyimiz modal componentlerin yerlesidiyi divin classi olacaq
+    .remove-member-alert {
+      padding: 48px 63px 64px 63px;
+      max-width: 510px;
+      text-align: center;
+      .MuiTypography-root {
+        margin-bottom: 32px;
+        color: black;
+      }
+    }
+  }
+}
