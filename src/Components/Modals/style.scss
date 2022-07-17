@@ -1,48 +1,44 @@
-@import '../../Common/Fonts/Font.css';
+@import "../../Common/Fonts/Font.css";
 
-.MuiModal-root{
-    .MuiBackdrop-root{
-        background: rgba(244, 250, 255, 0.65);
-backdrop-filter: blur(2.5px);
+.MuiModal-root.modal-component {
+  .MuiBackdrop-root {
+    background: rgba(244, 250, 255, 0.65);
+    backdrop-filter: blur(2.5px);
+  }
+  .MuiBox-root {
+    border: none;
+    background: #ffffff;
+    border-radius: 6px;
+    box-shadow: none;
+    width: auto;
+    .MuiTypography-root {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 100%;
     }
-    .MuiBox-root{
-        border: none;
-        background: #FFFFFF;
-border-radius: 6px;
-box-shadow: none;
-
-//Bu hisse istifade etdiyimiz modal componentlerin yerlesidiyi divin classi olacaq 
-.remove-member-alert{
-    width: 510px;
-    height: 242px;
-    padding: 48px 63px 64px 63px;
-   }
-.MuiGrid-root {
-   padding: 0;
-  
-}
-.MuiTypography-root{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 100%;
-color: #068FDB;
-}
+    //Bu hisse istifade etdiyimiz modal componentlerin yerlesidiyi divin classi olacaq
+    .remove-member-alert {
+      padding: 48px 63px 64px 63px;
+      max-width: 510px;
+      text-align: center;
+      .MuiTypography-root {
+        margin-bottom: 32px;
+        color: black;
+      }
     }
-}
-.removeMember{
-    .MuiBox-root{
-        padding: 48px 63px 64px 63px;
-        .MuiTypography-root{
-           
-font-weight: 400;
-line-height: 140%;
-font-size: 18px;
-text-align: center;
-color: #000000;
-
+    .add-team-member-modal {
+      padding: 32px 24px 24px 24px;
+    width: 536px;
+      .MuiTypography-root {
+        color: #068fdb;
+      }
+      .MuiGrid-root{
+        .MuiContainer-root{
+            padding: 0;
         }
+      }
     }
+  }
 }
-

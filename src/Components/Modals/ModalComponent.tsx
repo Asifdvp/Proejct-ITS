@@ -18,6 +18,7 @@ export default function ModalComponent(props: any) {
   return (
     <div>
       <Modal
+      className="modal-component"
         open={props.open}
         onClose={props.handleClose}
         aria-labelledby="modal-modal-title"
