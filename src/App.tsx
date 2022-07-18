@@ -1,5 +1,4 @@
 import React from 'react';
-<<<<<<< HEAD
 import './App.css';
 import RemoveMemberAlert from './Components/Modals/RemoveMemberAlert/RemoveMemberAlert';
 import CreateTeamTable from './Components/Table/CreateTeam';
@@ -22,21 +21,4 @@ function App() {
 </div>
 
 )};
-=======
-
-import CreateTeamTable from './components/Table/CreateTeam';
-import LayiheDetallari from './components/Table/layiheDetallari';
-import ModalCreatTeamTable from './components/Table/ModalCreatTeamTable';
-import Card from './components/Card';
-function App() {
-  return (
-    <div className="App">
-      {/* <CreateTeamTable /> */}
-      {/* <LayiheDetallari /> */}
-      {/* <ModalCreatTeamTable /> */}
-      <Card basliq='salam' buttonExist='true'/>
-    </div>
-  );
-}
->>>>>>> Ramil
 export default App;
