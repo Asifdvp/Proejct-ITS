@@ -1,0 +1,10 @@
+.MuiModal-root.modal-component .MuiBox-root .add-team-member-modal {
+  padding: 32px 24px 24px 24px;
+  width: 536px;
+}
+.MuiModal-root.modal-component .MuiBox-root .add-team-member-modal .MuiTypography-root {
+  color: #068fdb;
+}
+.MuiModal-root.modal-component .MuiBox-root .add-team-member-modal .MuiGrid-root .MuiContainer-root {
+  padding: 0;
+}/*# sourceMappingURL=index.css.map */

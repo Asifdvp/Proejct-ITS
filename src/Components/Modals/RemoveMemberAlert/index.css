@@ -1,0 +1,10 @@
+.MuiModal-root.modal-component .MuiBox-root .remove-member-alert {
+  padding: 48px 63px 64px 63px;
+  max-width: 510px;
+  text-align: center;
+}
+.MuiModal-root.modal-component .MuiBox-root .remove-member-alert .MuiTypography-root {
+  margin-bottom: 32px;
+  color: black;
+  font-size: 18px;
+}/*# sourceMappingURL=index.css.map */
