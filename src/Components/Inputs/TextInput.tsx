@@ -9,6 +9,7 @@ const TextInput: React.FC<ITextInput> = ({
 }) => {
   return (
     <TextField
+
     autoComplete="false"
     inputProps={{
       autocomplete: 'off',
@@ -19,7 +20,7 @@ const TextInput: React.FC<ITextInput> = ({
       placeholder={placeholder}
       label={label}
       disabled={disAble}
-      className={ disAble ? `disAbled` : ""}
+      className={ 'text-input' + (disAble ? ` disAbled` : "")}
     />
   );
 };

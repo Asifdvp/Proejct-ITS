@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-// import RemoveMemberAlert from './Components/Modals/RemoveMemberAlert/RemoveMemberAlert';
-// import CreateTeamTable from './Components/Table/CreateTeam';
-// import LayiheDetallariTable from './Components/Table/layiheDetallari';
-// import ModalCreatTeamTable from './Components/Table/ModalCreatTeamTable'
-// import AddTeamMemberModal from './Components/Modals/AddTeamMemberModal/AddTeamMemberModal';
-// import CreatePlan from './Components/Modals/CreatePlan/CreatePlan';
-// import EditPlanModal from './Components/Modals/EditPlan/EditPlanModal';
+import RemoveMemberAlert from './Components/Modals/RemoveMemberAlert/RemoveMemberAlert';
+import CreateTeamTable from './Components/Table/CreateTeam';
+import LayiheDetallariTable from './Components/Table/layiheDetallari';
+import ModalCreatTeamTable from './Components/Table/ModalCreatTeamTable'
+import AddTeamMemberModal from './Components/Modals/AddTeamMemberModal/AddTeamMemberModal';
+import CreatePlan from './Components/Modals/CreatePlan/CreatePlan';
+import EditPlanModal from './Components/Modals/EditPlan/EditPlanModal';
 import TextInput from './Components/Inputs/TextInput';
 import SelectInput from './Components/Inputs/SelectInput';
 import DateInput from './Components/Inputs/DateInput';
@@ -30,7 +30,6 @@ function App() {
         <Grid item xs={3}>
         <DateInput/>
         </Grid>
-        
         <Grid item xs={3}>
         <StatusInput/>
         </Grid>
@@ -61,9 +60,9 @@ function App() {
 {/* <CreateTeamTable/>
 <LayiheDetallariTable/> */}
 {/* <ModalCreatTeamTable/> */}
-{/* <CreatePlan/>
+ {/* <CreatePlan/>
 <AddTeamMemberModal/>
-<EditPlanModal/> */}
+<EditPlanModal/>  */}
 </div>
 
 )};

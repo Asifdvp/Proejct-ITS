@@ -39,6 +39,7 @@ else{
   };
   return (
     <Autocomplete
+    
     disableClearable
       disablePortal
       fullWidth
@@ -51,6 +52,7 @@ else{
           {...params}
           ref={inputRef}
           label="Status"
+          type={"button"}
           placeholder="Status"
           className="statusInput"
         />
