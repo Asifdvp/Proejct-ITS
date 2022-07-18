@@ -25,17 +25,17 @@ const CreatePlan = () => {
 <TextInput placeholder={'1,2'} label={'Task Nomresi'} disAble={false}/>
 </Grid>
 <Grid item xs={2.4}>
-<TextInput placeholder={'1,2'} label={'Task Nomresi'} disAble={false}/>
+<SelectInput/>
+
 </Grid>
 <Grid item xs={2.4}>
-<TextInput placeholder={'1,2'} label={'Task Nomresi'} disAble={false}/>
+<SelectInput/>
 </Grid>
 <Grid item xs={2.4}>
-<TextInput placeholder={'1,2'} label={'Task Nomresi'} disAble={false}/>
+<DateInput/>
 </Grid>
 <Grid item xs={2.4}>
-<TextInput placeholder={'1,2'} label={'Task Nomresi'} disAble={false}/>
-</Grid>
+<DateInput/></Grid>
 
 
 
@@ -48,10 +48,10 @@ const CreatePlan = () => {
 <TextInput placeholder={'1,2'} label={'Task Nomresi'} disAble={false}/>
 </Grid>
 <Grid item xs={3}>
-<TextInput placeholder={'1,2'} label={'Task Nomresi'} disAble={false}/>
+<DateInput/>
 </Grid>
 <Grid item xs={3}>
-<TextInput placeholder={'1,2'} label={'Task Nomresi'} disAble={false}/>
+<StatusInput/>
 </Grid>
 
 
