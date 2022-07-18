@@ -9,6 +9,11 @@ const TextInput: React.FC<ITextInput> = ({
 }) => {
   return (
     <TextField
+    autoComplete="false"
+    inputProps={{
+      autocomplete: 'off',
+    
+    }}
       fullWidth
       defaultValue= {disAble ? "Hello World" : null }
       placeholder={placeholder}
