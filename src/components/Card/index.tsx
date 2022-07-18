@@ -18,7 +18,8 @@ import './index.scss';
 import {Button} from '@mui/material';
 import LayiheDetallariTable from '../Table/layiheDetallari';
 import CreateTeamTable from '../Table/CreateTeam';
-
+import AddButton from '../Buttons/AddButton';
+import AddTextButton from '../Buttons/AddTextButton';
 interface ExpandMoreProps extends IconButtonProps {
   expand: boolean;
 }
@@ -52,7 +53,7 @@ const  RecipeReviewCard:React.FC<Props>=(props)=> {
         
         action={
           <IconButton aria-label="settings">
-            <Button />
+        <AddTextButton/>
           </IconButton>
         }
         title={props.basliq}
