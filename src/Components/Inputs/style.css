@@ -82,6 +82,16 @@
   text-align: left;
   line-height: 100%;
 }
+.MuiFormControl-root.textAreaPadding .MuiFormHelperText-root,
+.MuiFormControl-root.textAreaPadding .css-1wc848c-MuiFormHelperText-root {
+  font-family: "Poppins" !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px !important;
+  line-height: 140%;
+  color: #000000;
+  opacity: 0.4;
+}
 
 .MuiAutocomplete-root.select-input .MuiFormControl-root .MuiOutlinedInput-root .MuiOutlinedInput-input {
   padding-left: 0;
@@ -115,46 +125,6 @@
 .MuiAutocomplete-popper .MuiPaper-root .MuiAutocomplete-listbox .MuiAutocomplete-option:hover {
   background-color: #068fdb;
   color: white;
-}
-
-.MuiFormHelperText-root,
-.css-1wc848c-MuiFormHelperText-root {
-  font-family: "Poppins" !important;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px !important;
-  line-height: 140%;
-  color: #000000;
-  opacity: 0.4;
-}
-
-.MuiMenuItem-root,
-.MuiMenuItem-gutters,
-.Mui-selected,
-.MuiButtonBase-root,
-.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
-  color: #292d32;
-}
-
-.MuiPickersDay-root.Mui-selected {
-  color: white !important;
-}
-
-.MuiAutocomplete-listbox li .checkIcon {
-  color: #0f3673;
-}
-
-.MuiInputBase-input::-moz-placeholder {
-  color: #292d32;
-}
-
-.MuiInputBase-input:-ms-input-placeholder {
-  color: #292d32;
-}
-
-.MuiOutlinedInput-input,
-.MuiInputBase-input::placeholder {
-  color: #292d32;
 }
 
 ::-webkit-scrollbar {

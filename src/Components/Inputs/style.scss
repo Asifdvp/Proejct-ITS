@@ -59,7 +59,6 @@
         top: 14px;
       }
     }
-
   }
   //TextInput
   &.text-input {
@@ -84,16 +83,6 @@
         }
       }
     }
-    .MuiInputLabel-root {
-      &.MuiInputLabel-shrink {
-      }
-    }
-    .MuiOutlinedInput-root {
-      .MuiOutlinedInput-input {
-      }
-      .MuiOutlinedInput-notchedOutline {
-      }
-    }
   }
   &.statusInput {
     .MuiInputLabel-root {
@@ -115,13 +104,23 @@
       }
     }
   }
-  
+  &.textAreaPadding {
+    .MuiFormHelperText-root,
+    .css-1wc848c-MuiFormHelperText-root {
+      font-family: "Poppins" !important;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px !important;
+      line-height: 140%;
+      color: #000000;
+      opacity: 0.4;
+    }
+  }
 }
-
-.MuiAutocomplete-root.select-input{
-  .MuiFormControl-root{
+.MuiAutocomplete-root.select-input {
+  .MuiFormControl-root {
     .MuiOutlinedInput-root {
-      .MuiOutlinedInput-input{
+      .MuiOutlinedInput-input {
         padding-left: 0;
       }
     }
@@ -151,21 +150,20 @@
     }
   }
 }
-
 //Select Input Poop menu
-.MuiAutocomplete-popper{
-  .MuiPaper-root{
-    .MuiAutocomplete-listbox {   
-      .MuiAutocomplete-option{
+.MuiAutocomplete-popper {
+  .MuiPaper-root {
+    .MuiAutocomplete-listbox {
+      .MuiAutocomplete-option {
         font-family: Poppins;
-        &[aria-selected='true']{
-          background-color: #068fdb ;
+        &[aria-selected="true"] {
+          background-color: #068fdb;
           color: white;
         }
         background-color: white;
         color: #292d32;
-        &:hover{
-          background-color: #068fdb ;
+        &:hover {
+          background-color: #068fdb;
           color: white;
         }
         // &.Mui-focused{
@@ -175,64 +173,7 @@
       }
     }
   }
-
-
 }
-
-
-
-
-
-
-.MuiFormHelperText-root,
-.css-1wc848c-MuiFormHelperText-root {
-  font-family: "Poppins" !important;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px !important;
-  line-height: 140%;
-  color: #000000;
-  opacity: 0.4;
-}
-
-
-.MuiMenuItem-root,
-.MuiMenuItem-gutters,
-.Mui-selected,
-.MuiButtonBase-root,
-.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
-  color: #292d32;
-}
-
-.MuiPickersDay-root.Mui-selected {
-  color: white !important;
-}
-
-.MuiAutocomplete-listbox li .checkIcon {
-  color: #0f3673;
-}
-
-.MuiOutlinedInput-input,
-.MuiInputBase-input::placeholder {
-  color: #292d32;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //Scroll
 ::-webkit-scrollbar {
   background: transparent;
