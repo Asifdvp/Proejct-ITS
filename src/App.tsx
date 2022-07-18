@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import RemoveMemberAlert from './Components/Modals/RemoveMemberAlert/RemoveMemberAlert';
+import AddTeamMemberModal from './Components/Modals/AddTeamMemberModal/AddTeamMemberModal';
 import CreatePlan from './Components/Modals/CreatePlan/CreatePlan';
 import EditPlanModal from './Components/Modals/EditPlan/EditPlanModal';
 import TextInput from './Components/Inputs/TextInput';
@@ -39,16 +40,7 @@ function App() {
         <TextArea placeholder={'Task Nömrəsi'} label={'Task Nömrəsi'} limit={Infinity}/>
         </Grid>
 
-      </Grid>
-
-
-
-
-
-
-
-
-      
+      </Grid>  
       {/* <div className="container">
      
       </div> */}
@@ -60,6 +52,5 @@ function App() {
 <AddTeamMemberModal/>
 <EditPlanModal/>  */}
 </div>
-
-)};
+  )};
 export default App;
