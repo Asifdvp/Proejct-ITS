@@ -1,4 +1,5 @@
 @import '../../Common/Fonts/Font.css';
+@import '../../Common/Colors/style.css';
 .MuiButton-root.clearBtn, .MuiFab-root.clearBtn {
   background: #FFFFFF;
   border: 0.6px solid #0F3673;

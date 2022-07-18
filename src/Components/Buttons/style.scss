@@ -1,8 +1,9 @@
 @import '../../Common/Fonts/Font.css';
+@import "../../Common/Colors/style.css";
 .MuiButton-root,.MuiFab-root{
     &.clearBtn{
         background: #FFFFFF;
-        border: 0.6px solid #0F3673;
+        border: 0.6px solid $blue06;
         box-shadow: none;
         width: 34px;
         height: 34px;
@@ -16,10 +17,10 @@
         min-height: 48px;
         width: 48px;
         height: 48px;
-        background: #6FC03D;
+        background: $green6f;
         box-shadow: none;
         &:hover{
-            background: #6FC03D;
+            background: $green6f;
         }
 }
 &.containBtn{
@@ -31,7 +32,7 @@
     text-transform: capitalize;
     }
 &.MuiButton-contain.containBtn{
-    background-color: #068FDB;
+    background-color: $blue06;
     color: #FFFFFF;
 }
 &.MuiButton-contain.containBtn.Mui-disabled{
@@ -40,8 +41,8 @@
 }
 
 &.containBtn.sil{
-    color: #F05353;
-    border-color: #F05353;
+    color: $redf0;
+    border-color: $redf0;
     &:hover{
         background-color: rgb(240, 83, 83,0.1);
    

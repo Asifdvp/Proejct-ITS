@@ -8,11 +8,11 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 100%;
-  color: #292d32;
+  color: #292D32;
   opacity: 0.4;
 }
 .MuiFormControl-root .MuiInputLabel-root.Mui-focused {
-  color: #292d32;
+  color: #292D32;
   opacity: 1;
 }
 .MuiFormControl-root .MuiOutlinedInput-root {
@@ -36,7 +36,7 @@
 .MuiFormControl-root .MuiOutlinedInput-root .MuiOutlinedInput-input {
   padding: 0;
   height: 16px;
-  color: #292d32;
+  color: #292D32;
   border-width: 0.4px;
   font-family: Poppins;
   font-style: normal;
@@ -58,7 +58,7 @@
   top: -3px;
 }
 .MuiFormControl-root.text-input.disAbled .Mui-disabled {
-  color: #292d32;
+  color: #292D32;
 }
 .MuiFormControl-root.text-input.disAbled .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
   border-color: rgb(15, 54, 115);
@@ -73,7 +73,7 @@
 }
 .MuiFormControl-root.statusInput .MuiInputLabel-root.Mui-focused {
   top: -3px;
-  color: #292d32;
+  color: #292D32;
 }
 .MuiFormControl-root.statusInput .MuiOutlinedInput-root .MuiOutlinedInput-input,
 .MuiFormControl-root.statusInput .MuiOutlinedInput-root .MuiInputBase-input {
@@ -99,14 +99,14 @@
 
 .MuiPopover-root.MuiMenu-root .MuiPaper-root.MuiMenu-paper .MuiList-root .MuiMenuItem-root.check.MuiMenuItem-gutters {
   background-color: white;
-  color: #292d32;
+  color: #292D32;
 }
 .MuiPopover-root.MuiMenu-root .MuiPaper-root.MuiMenu-paper .MuiList-root .MuiMenuItem-root.check.MuiMenuItem-gutters:hover {
-  background-color: #068fdb;
+  background-color: #068FDB;
   color: white;
 }
 .MuiPopover-root.MuiMenu-root .MuiPaper-root.MuiMenu-paper .MuiList-root .MuiMenuItem-root.check.MuiMenuItem-gutters.Mui-selected {
-  background-color: #068fdb;
+  background-color: #068FDB;
   color: white;
 }
 .MuiPopover-root.MuiMenu-root .MuiPaper-root.MuiMenu-paper .MuiList-root .MuiMenuItem-root.check.MuiMenuItem-gutters.Mui-selected .MuiCheckbox-root .MuiSvgIcon-root {
@@ -116,14 +116,14 @@
 .MuiAutocomplete-popper .MuiPaper-root .MuiAutocomplete-listbox .MuiAutocomplete-option {
   font-family: Poppins;
   background-color: white;
-  color: #292d32;
+  color: #292D32;
 }
 .MuiAutocomplete-popper .MuiPaper-root .MuiAutocomplete-listbox .MuiAutocomplete-option[aria-selected=true] {
-  background-color: #068fdb;
+  background-color: #068FDB;
   color: white;
 }
 .MuiAutocomplete-popper .MuiPaper-root .MuiAutocomplete-listbox .MuiAutocomplete-option:hover {
-  background-color: #068fdb;
+  background-color: #068FDB;
   color: white;
 }
 

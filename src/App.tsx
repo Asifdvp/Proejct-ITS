@@ -14,7 +14,7 @@ import { Grid } from '@mui/material';
 function App() {
   return (
     <div className="App">
-      <Grid container spacing={2}>
+      {/* <Grid container spacing={2}>
         <Grid item xs={3}>
         <TextInput placeholder={'1.2'} label={'Task Nömrəsi'} disAble={false} />
         </Grid>
@@ -40,17 +40,14 @@ function App() {
         <TextArea placeholder={'Task Nömrəsi'} label={'Task Nömrəsi'} limit={Infinity}/>
         </Grid>
 
-      </Grid>  
+      </Grid>   */}
       {/* <div className="container">
      
       </div> */}
- {/* <RemoveMemberAlert title="Komanda üzvünü silmək istədiyinizə əminsiniz mi ?" /> */}
-{/* <CreateTeamTable/>
-<LayiheDetallariTable/> */}
-{/* <ModalCreatTeamTable/> */}
- {/* <CreatePlan/>
+ <RemoveMemberAlert title="Komanda üzvünü silmək istədiyinizə əminsiniz mi ?" /> 
+<CreatePlan/>
 <AddTeamMemberModal/>
-<EditPlanModal/>  */}
+<EditPlanModal/> 
 </div>
   )};
 export default App;
