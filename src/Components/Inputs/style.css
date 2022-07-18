@@ -153,10 +153,6 @@
 }
 
 /* Handle on hover */
-.MuiButtonBase-root {
-  border: none !important;
-}
-
 .MuiMenuItem-root,
 .MuiMenuItem-gutters,
 .Mui-selected,
