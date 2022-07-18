@@ -6,6 +6,7 @@ import LayiheDetallariTable from './Components/Table/layiheDetallari';
 import ModalCreatTeamTable from './Components/Table/ModalCreatTeamTable'
 import AddTeamMemberModal from './Components/Modals/AddTeamMemberModal/AddTeamMemberModal';
 import CreatePlan from './Components/Modals/CreatePlan/CreatePlan';
+import EditPlanModal from './Components/Modals/EditPlan/EditPlanModal';
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
 {/* <ModalCreatTeamTable/> */}
 <CreatePlan/>
 <AddTeamMemberModal/>
+<EditPlanModal/>
 </div>
 
 )};
