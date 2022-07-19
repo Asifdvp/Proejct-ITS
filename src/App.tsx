@@ -1,15 +1,15 @@
 import React from 'react';
 
 
-import CreateTeamTable from './components/Table/CreateTeam';
-import LayiheDetallari from './components/Table/layiheDetallari';
-import ModalCreatTeamTable from './components/Table/ModalCreatTeamTable';
-import Card from './components/Card';
-import ResponsiveAppBar from './components/Navbar';
-import Ilkinlayihemelumatlari from './components/Card/ilkinlayihemelumatlari';
-import KomandaniYaratCard from './components/Card/komandaniyarat';
-import Emptykomandayarat from './components/Card/emptykomandayarat';
-import Fealiyyatplaniyarat from './components/Card/fealiyyatplaniyarat';
+import CreateTeamTable from './Components/Table/CreateTeam';
+import LayiheDetallari from './Components/Table/layiheDetallari';
+import ModalCreatTeamTable from './Components/Table/ModalCreatTeamTable';
+import Card from './Components/Card';
+import ResponsiveAppBar from './Components/Navbar';
+import Ilkinlayihemelumatlari from './Components/Card/ilkinlayihemelumatlari';
+import KomandaniYaratCard from './Components/Card/komandaniyarat';
+import Emptykomandayarat from './Components/Card/emptykomandayarat';
+import Fealiyyatplaniyarat from './Components/Card/fealiyyatplaniyarat';
 import './App.scss';
 function App() {
   return (

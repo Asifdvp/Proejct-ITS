@@ -9,7 +9,6 @@ const TextInput: React.FC<ITextInput> = ({
 }) => {
   return (
     <TextField
-
     autoComplete="false"
     inputProps={{
       autocomplete: 'off',

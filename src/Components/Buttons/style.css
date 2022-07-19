@@ -1,7 +1,7 @@
 @import '../../Common/Fonts/Font.css';
 .MuiButton-root.clearBtn, .MuiFab-root.clearBtn {
   background: #FFFFFF;
-  border: 0.6px solid #0F3673;
+  border: 0.6px solid #068FDB;
   box-shadow: none;
   width: 34px;
   height: 34px;
@@ -11,8 +11,6 @@
   top: -15px;
 }
 .MuiButton-root.addBtn, .MuiFab-root.addBtn {
-  min-width: 48px;
-  min-height: 48px;
   width: 48px;
   height: 48px;
   background: #6FC03D;
@@ -45,8 +43,8 @@
   background-color: rgba(240, 83, 83, 0.1);
 }
 
-.MuiButton-text.addBtnText {
-  font-family: "Poppins";
+.MuiButton-root.addBtnText {
+  font-family: Poppins;
   font-style: normal;
   font-weight: 500;
   text-transform: capitalize;
@@ -54,8 +52,14 @@
   line-height: 100%;
   color: #292D32;
 }
-.MuiButton-text.addBtnText .addBtn.addTextBtn {
+.MuiButton-root.addBtnText .MuiButton-startIcon .MuiButtonBase-root.css-mm42gz-MuiButtonBase-root-MuiFab-root {
   height: 20px;
   width: 20px;
+  min-width: 20px;
   min-height: 20px;
+  background: #6FC03D;
+  box-shadow: none;
+}
+.MuiButton-root.addBtnText .MuiButton-startIcon .MuiButtonBase-root.css-mm42gz-MuiButtonBase-root-MuiFab-root:hover {
+  background: #6FC03D;
 }/*# sourceMappingURL=style.css.map */

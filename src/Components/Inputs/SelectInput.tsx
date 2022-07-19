@@ -4,7 +4,10 @@ import Autocomplete from '@mui/material/Autocomplete';
 import Arrow from '../../Assets/images/Arrow';
 import './style.css'
 export default function SelectInput() {
- 
+//  const [state,setData] = React.useState([])
+//  React.useEffect(()=>{
+// setData(data)
+//  },[]);
   return (
     <>
  <Autocomplete
@@ -17,12 +20,6 @@ export default function SelectInput() {
      popupIcon={<Arrow/>}
       renderInput={(params) => <TextField {...params} label="Movie" />}
     /> 
-
-   
-    
-  
- 
-
     </>
   );
 }

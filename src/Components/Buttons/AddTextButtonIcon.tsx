@@ -4,7 +4,7 @@ import AddTextBtnIcon from '../../Assets/Svg/AddTextBtnIcon'
 
 const AddTextButtonIcon = () => {
   return (
-    <Fab className="addBtn addTextBtn"  aria-label="add"  >
+    <Fab aria-label="add"  >
     <AddTextBtnIcon/>
    </Fab>
   )
