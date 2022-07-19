@@ -1,4 +1,5 @@
 @import "../../Common/Fonts/Font.css";
+@import "../../Common/Colors/style.css";
 .MuiFormControl-root {
   width: 100%;
   //Umumi CSS
@@ -8,10 +9,10 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
-    color: #292d32;
+    color: $black29;
     opacity: 0.4;
     &.Mui-focused {
-      color: #292d32;
+      color: $black29;
       opacity: 1;
     }
     // &.MuiInputLabel-shrink {
@@ -22,15 +23,15 @@
     border-radius: 6px;
     //border
     .MuiOutlinedInput-notchedOutline {
-      border-color: #0f3673;
+      border-color: $blue0f;
       border-width: 0.4px;
     }
     &:hover .MuiOutlinedInput-notchedOutline {
-      border-color: #0f3673;
+      border-color: $blue0f;
     }
     //Focus olanda inputun borderi
     &.Mui-focused .MuiOutlinedInput-notchedOutline {
-      border-color: #0f3673;
+      border-color: $blue0f;
       border-width: 0.4px;
     }
     //Status Inputda padding ucun
@@ -40,7 +41,7 @@
     .MuiOutlinedInput-input {
       padding: 0;
       height: 16px;
-      color: #292d32;
+      color: $black29;
       border-width: 0.4px;
       font-family: Poppins;
       font-style: normal;
@@ -69,14 +70,14 @@
         }
       }
       .Mui-disabled {
-        color: #292d32;
+        color: $black29;
       }
 
       .MuiOutlinedInput-root {
         .MuiOutlinedInput-notchedOutline {
           border-color: rgb(15, 54, 115, 1);
           background: rgba(15, 54, 115, 0.1);
-          border: 0.4px solid #0f3673;
+          border: 0.4px solid $blue0f;
         }
         &:hover .MuiOutlinedInput-notchedOutline {
           opacity: 1;
@@ -91,7 +92,7 @@
       }
       &.Mui-focused {
         top: -3px;
-        color: #292d32;
+        color: $black29;
       }
     }
     .MuiOutlinedInput-root {
@@ -132,13 +133,13 @@
     .MuiList-root {
       .MuiMenuItem-root.check.MuiMenuItem-gutters {
         background-color: white;
-        color: #292d32;
+        color: $black29;
         &:hover {
-          background-color: #068fdb;
+          background-color: $blue06;
           color: white;
         }
         &.Mui-selected {
-          background-color: #068fdb;
+          background-color: $blue06;
           color: white;
           .MuiCheckbox-root {
             .MuiSvgIcon-root {
@@ -157,17 +158,17 @@
       .MuiAutocomplete-option {
         font-family: Poppins;
         &[aria-selected="true"] {
-          background-color: #068fdb;
+          background-color: $blue06;
           color: white;
         }
         background-color: white;
-        color: #292d32;
+        color: $black29;
         &:hover {
-          background-color: #068fdb;
+          background-color: $blue06;
           color: white;
         }
         // &.Mui-focused{
-        //   background-color: #068fdb  ;
+        //   background-color: $blue06  ;
         //   color: white;
         // }
       }
