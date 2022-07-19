@@ -1,9 +1,6 @@
 .App {
   padding: 80px;
 }
-.App .container {
-  background-color: #F4FAFF;
-}
 
 * {
   box-sizing: border-box !important;
