@@ -9,6 +9,7 @@ import ResponsiveAppBar from './Components/Navbar';
 import Ilkinlayihemelumatlari from './Components/Card/ilkinlayihemelumatlari';
 import KomandaniYaratCard from './Components/Card/komandaniyarat';
 import Emptykomandayarat from './Components/Card/emptykomandayarat';
+import EditPlanModal from './Components/Modals/EditPlan/EditPlanModal';
 import Fealiyyatplaniyarat from './Components/Card/fealiyyatplaniyarat';
 import './App.scss';
 function App() {
@@ -23,6 +24,7 @@ function App() {
     <KomandaniYaratCard title={'Komandanı yarat'} buttonexist={'true'} /> 
       <ResponsiveAppBar /> 
        <Emptykomandayarat /> 
+       <EditPlanModal/>
       <Fealiyyatplaniyarat />
     </div>
   );
