@@ -4,4 +4,10 @@
 
 .unvisiblebtns {
   display: none !important;
+}
+
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+  background-color: #fff !important;
+  padding: 21px 0px;
+  box-shadow: none !important;
 }/*# sourceMappingURL=style.css.map */

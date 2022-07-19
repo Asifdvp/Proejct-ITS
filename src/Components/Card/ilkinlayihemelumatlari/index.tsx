@@ -3,7 +3,7 @@ import TextInput from '../../Inputs/TextInput';
 import { Grid, Container } from '@mui/material';
 import './style.scss';
 import RecipeReviewCard from '../index';
-
+import Textarea from '../../Inputs/TextArea';
 interface Props{
     title:string,
     buttonexist:any
@@ -28,7 +28,7 @@ const Ilkinlayihemelumatlari:React.FC<Props> = (props) => {
 
                         </Grid>
                         <Grid item xs={12}>
-                            <TextInput placeholder={'Layihə üzrə qeydlər'} label={'Layihənin qısa izahı'} disAble={false} />
+                            <Textarea placeholder={'Layihə üzrə qeydlər'} label={'Layihənin qısa izahı'} limit={Infinity} />
                         </Grid>
                     </Grid>
                 </div>
