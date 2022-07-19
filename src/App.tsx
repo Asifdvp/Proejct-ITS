@@ -30,8 +30,8 @@ function App() {
        {/* <Emptykomandayarat /> 
        
       <Fealiyyatplaniyarat /> */}
-      {/* <FirstWindow/> */}
-      <Header/>
+      <FirstWindow/>
+      {/* <Header/> */}
     </div>
   );
 }

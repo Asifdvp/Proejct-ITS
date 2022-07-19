@@ -3,7 +3,7 @@
     width: 100%;
     background-color: white;
     height: auto;
-    margin-top: 60px;
+    // margin-top: 60px;
     display: flex;
     justify-content: center;
     .MuiGrid-root.header-main{
@@ -12,6 +12,7 @@
         align-items: center;
         width: 1280px;
         max-width: 1280px;
+        padding: 21px 0;
       .MuiGrid-root.user-menu{
 display: flex;
 justify-content: center;

@@ -33,7 +33,6 @@ return (
 
 
     <div className="header-root">
-
         <Grid container className='header-main'  >
         <Grid item >
         <HeaderLogo/>

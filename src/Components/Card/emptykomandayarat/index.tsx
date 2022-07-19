@@ -1,5 +1,6 @@
 import { Grid } from '@mui/material'
 import React from 'react'
+import AddTeamMmeberModal from '../../Modals/AddTeamMemberModal/AddTeamMemberModal'
 import RecipeReviewCard from '../index'
 import './style.scss'
 const Emptykomandayarat = () => {
@@ -14,7 +15,8 @@ const Emptykomandayarat = () => {
                         </p>
                     </Grid>
                     <Grid item xs={12}>
-                        <a href='https:/www.google.com' className='merkez merkez2'>Komanda yarat</a>
+                      
+                        <div  className='merkez merkez2'>  <AddTeamMmeberModal /></div>
                     </Grid>
                 </Grid>
             </div>

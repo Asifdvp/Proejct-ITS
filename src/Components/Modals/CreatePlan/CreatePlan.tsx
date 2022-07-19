@@ -1,6 +1,6 @@
 import React from 'react'
 import ModalComponent from '../ModalComponent';
-import { Grid } from '@mui/material';
+import { Button, Grid } from '@mui/material';
 import TextInput from '../../Inputs/TextInput';
 import TextArea from '../../Inputs/TextArea';
 import StatusInput from '../../Inputs/StatusInput';
@@ -17,7 +17,7 @@ const CreatePlan = () => {
     const handleCloseC = () => setOpen(false)
   return (
     <div>
-        <button onClick={handleOpenC}>sdfsdfsd</button>
+        <Button className="merkez merkez2" onClick={handleOpenC}>Plan Yarat</Button>
 <ModalComponent open={openC} handleClose={handleCloseC} clear={true} >
 <div className='create-plan'>
 <Grid container spacing={1.5}>
