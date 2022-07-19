@@ -1,12 +1,6 @@
 import * as React from "react";
 import Checkbox from "@mui/material/Checkbox";
-import TextField from "@mui/material/TextField";
-import Autocomplete from "@mui/material/Autocomplete";
-import CheckBoxOutlineBlankIcon from "@mui/icons-material/CheckBoxOutlineBlank";
-import CheckBoxIcon from "@mui/icons-material/CheckBox";
 import Arrow from "../../Assets/images/Arrow";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-
 import CheckIcon from "../../Assets/Svg/CheckIcon";
 import CheckedIcon from "../../Assets/Svg/CheckedIcon";
 import InputLabel from '@mui/material/InputLabel';

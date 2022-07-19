@@ -36,8 +36,9 @@ const ExpandMore = styled((props: ExpandMoreProps) => {
 }));
 
 interface Props{
-    basliq:string,
+    basliq?:string,
     buttonExist?:any
+    children?:any
 }
 
 const  RecipeReviewCard:React.FC<Props>=(props)=> {
@@ -48,6 +49,7 @@ const  RecipeReviewCard:React.FC<Props>=(props)=> {
   };
 
   return (
+    props.buttonExist==='true'?
     <Card sx={{ width:'100%' }} square={true}>
       <CardHeader
         
@@ -59,7 +61,18 @@ const  RecipeReviewCard:React.FC<Props>=(props)=> {
         title={props.basliq}
       />
       <CardContent>
-      <CreateTeamTable />
+        {props.children}
+      </CardContent>
+      
+      
+    </Card>:<Card sx={{ width:'100%' }} square={true}>
+      <CardHeader
+        
+        
+        title={props.basliq}
+      />
+      <CardContent>
+        {props.children}
       </CardContent>
       
       
