@@ -1,4 +1,5 @@
 import React from 'react';
+<<<<<<< HEAD
 import './App.css';
 // import RemoveMemberAlert from './Components/Modals/RemoveMemberAlert/RemoveMemberAlert';
 // import CreatePlan from './Components/Modals/CreatePlan/CreatePlan';
@@ -70,4 +71,34 @@ function App() {
 </div>
 
 )};
+=======
+
+
+import CreateTeamTable from './components/Table/CreateTeam';
+import LayiheDetallari from './components/Table/layiheDetallari';
+import ModalCreatTeamTable from './components/Table/ModalCreatTeamTable';
+import Card from './components/Card';
+import ResponsiveAppBar from './components/Navbar';
+import Ilkinlayihemelumatlari from './components/Card/ilkinlayihemelumatlari';
+import KomandaniYaratCard from './components/Card/komandaniyarat';
+import Emptykomandayarat from './components/Card/emptykomandayarat';
+import Fealiyyatplaniyarat from './components/Card/fealiyyatplaniyarat';
+import './App.scss';
+function App() {
+  return (
+    <div className="App">
+      {/* <CreateTeamTable /> */}
+      {/* <LayiheDetallari /> */}
+      {/* <ModalCreatTeamTable /> */}
+      {/* <Card basliq='Komandani yarat' buttonExist='false'/> */}
+      {/* <Card basliq='Layihə detalları' buttonExist='true' /> */}
+      {/* <Ilkinlayihemelumatlari title={'İlkin layihə məlumatları'} buttonexist={'false'} /> */}
+      <KomandaniYaratCard title={'Komandanı yarat'} buttonexist={'true'} />
+      {/* <ResponsiveAppBar /> */}
+      {/* <Emptykomandayarat /> */}
+      {/* <Fealiyyatplaniyarat /> */}
+    </div>
+  );
+}
+>>>>>>> a2f8c508048f1d19a1d016e5f95b1444b110aa0b
 export default App;
