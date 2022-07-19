@@ -11,8 +11,7 @@ import MenuItem from '@mui/material/MenuItem';
 import MenuIcon from '../../Assets/Svg/MenuIcon';
 import { Container } from '@mui/material';
 import ContainedButton from '../Buttons/ContainedButton';
-
-
+import LogoutIcon from '../../Assets/Svg/LogoutIcon';
 
 
 
@@ -67,7 +66,15 @@ return (
           'aria-labelledby': 'basic-button',
         }}
       >
-        <MenuItem className="head-menu-item" onClick={handleClose}>Profildən Çıx</MenuItem>
+        <MenuItem 
+      
+        
+        className="head-menu-item" onClick={handleClose}>
+          <Grid container spacing={1} >
+<Grid item>  <LogoutIcon/> </Grid>
+<Grid item>Profildən Çıx</Grid>
+          </Grid>
+         </MenuItem>
       
       </Menu>
 </Grid>
