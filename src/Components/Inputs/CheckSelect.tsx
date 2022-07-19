@@ -1,13 +1,8 @@
 import * as React from "react";
 import Checkbox from "@mui/material/Checkbox";
-import TextField from "@mui/material/TextField";
-import Autocomplete from "@mui/material/Autocomplete";
-import CheckBoxOutlineBlankIcon from "@mui/icons-material/CheckBoxOutlineBlank";
-import CheckBoxIcon from "@mui/icons-material/CheckBox";
 import Arrow from "../../Assets/images/Arrow";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-
-
+import CheckIcon from "../../Assets/Svg/CheckIcon";
+import CheckedIcon from "../../Assets/Svg/CheckedIcon";
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
@@ -15,24 +10,11 @@ import Select, { SelectChangeEvent } from '@mui/material/Select';
 import OutlinedInput from '@mui/material/OutlinedInput';
 import ListItemText from '@mui/material/ListItemText';
 
-
-
-
-const ITEM_HEIGHT = 48;
-const ITEM_PADDING_TOP = 8;
-
-
 const names = [
   'Oliver Hansen',
   'Van Henry',
   'April Tucker',
-  'Ralph Hubbard',
-  'Omar Alexander',
-  'Carlos Abbott',
-  'Miriam Wagner',
-  'Bradley Wilkerson',
-  'Virginia Andrews',
-  'Kelly Snyder',
+  'Ralph Hubbard'
 ];
 
 export default function CheckSelect() {
@@ -48,13 +30,12 @@ export default function CheckSelect() {
     );
   };
 
-
   return (
     <FormControl>
     <InputLabel id="demo-multiple-checkbox-label">Tag</InputLabel>
     <Select
-       IconComponent={Arrow}
-    className='selectInput'
+      IconComponent={Arrow}
+      className='check-select'
       labelId="demo-multiple-checkbox-label"
       id="demo-multiple-checkbox"
       multiple
@@ -64,8 +45,8 @@ export default function CheckSelect() {
       renderValue={(selected) => selected.join(', ')}
     >
       {names.map((name) => (
-        <MenuItem key={name} value={name}>
-          <Checkbox checked={personName.indexOf(name) > -1} />
+        <MenuItem className="check" key={name} value={name}>
+          <Checkbox checkedIcon={<CheckedIcon/>} icon={<CheckIcon/>}  checked={personName.indexOf(name) > -1} />
           <ListItemText primary={name} />
         </MenuItem>
       ))}

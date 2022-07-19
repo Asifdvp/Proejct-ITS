@@ -18,7 +18,7 @@
     font-size: 16px !important;
     font-weight: 600 !important;
     line-height: 16px !important;
-    font-family: 'Poppins';
+    font-family: 'Poppins' !important;
 }
 
 .tablefirstcolumn {
@@ -40,4 +40,19 @@
     font-size: 14px !important;
     font-weight: 400 !important;
     line-height: 14px !important;
+}
+
+.css-d7jkuz-MuiTable-root{
+    box-shadow: none !important;
+    border: none !important;
+    color: #fff;
+}
+
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root{
+   box-shadow: none !important;
+//    border-bottom: none !important;
+}
+
+.css-1ps6pg7-MuiPaper-root{
+    box-shadow: none !important;
 }

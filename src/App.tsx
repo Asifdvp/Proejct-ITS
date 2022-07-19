@@ -1,26 +1,43 @@
 import React from 'react';
-import './App.css';
-import RemoveMemberAlert from './Components/Modals/RemoveMemberAlert/RemoveMemberAlert';
+
+
 import CreateTeamTable from './Components/Table/CreateTeam';
-import LayiheDetallariTable from './Components/Table/layiheDetallari';
-import ModalCreatTeamTable from './Components/Table/ModalCreatTeamTable'
-import AddTeamMemberModal from './Components/Modals/AddTeamMemberModal/AddTeamMemberModal';
-import CreatePlan from './Components/Modals/CreatePlan/CreatePlan';
+import LayiheDetallari from './Components/Table/layiheDetallari';
+import ModalCreatTeamTable from './Components/Table/ModalCreatTeamTable';
+import Card from './Components/Card';
+import ResponsiveAppBar from './Components/Navbar';
+import Ilkinlayihemelumatlari from './Components/Card/ilkinlayihemelumatlari';
+import KomandaniYaratCard from './Components/Card/komandaniyarat';
+import Emptykomandayarat from './Components/Card/emptykomandayarat';
+import Fealiyyatplaniyarat from './Components/Card/fealiyyatplaniyarat';
 import EditPlanModal from './Components/Modals/EditPlan/EditPlanModal';
+import './App.scss';
+import Header from './Components/Header/Header';
+// import FirstWindow from './Pages/firstWindows/FirstWindows';
 function App() {
   return (
     <div className="App">
-      {/* <div className="container">
-     
-      </div> */}
- <RemoveMemberAlert title="Komanda üzvünü silmək istədiyinizə əminsiniz mi ?" />
-{/* <CreateTeamTable/>
-<LayiheDetallariTable/> */}
-{/* <ModalCreatTeamTable/> */}
-<CreatePlan/>
-<AddTeamMemberModal/>
-<EditPlanModal/>
-</div>
-
-)};
+      {/* <CreateTeamTable /> */}
+      {/* <LayiheDetallari /> */}
+      {/* <ModalCreatTeamTable /> */}
+      {/* <Card basliq='Komandani yarat' buttonExist='false'/>
+      <Card basliq='Layihə detalları' buttonExist='true' /> */}
+      {/* <Ilkinlayihemelumatlari title={'İlkin layihə məlumatları'} buttonexist={'false'} /> 
+    <KomandaniYaratCard title={'Komandanı yarat'} buttonexist={'true'} /> */}
+      {/* <ResponsiveAppBar />   */}
+      {/* <EditPlanModal/> */}
+       {/* <Emptykomandayarat /> 
+       
+<<<<<<< HEAD
+      // <Fealiyyatplaniyarat /> */}
+      {/* <FirstWindow/> */}
+      <ResponsiveAppBar/>
+      <Header/>
+=======
+      <Fealiyyatplaniyarat /> */}
+      <FirstWindow/>
+>>>>>>> master
+    </div>
+  );
+}
 export default App;

@@ -19,7 +19,7 @@ const TextInput: React.FC<ITextInput> = ({
       placeholder={placeholder}
       label={label}
       disabled={disAble}
-      className={ disAble ? `disAbled` : ""}
+      className={ 'text-input' + (disAble ? ` disAbled` : "")}
     />
   );
 };

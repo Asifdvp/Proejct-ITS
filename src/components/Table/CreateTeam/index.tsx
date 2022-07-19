@@ -31,7 +31,7 @@ interface Props{
 const komandayarat = ['Vəzifə', 'Ad və soyad'];
 const  CreateTeamTable:React.FC<Props>=(props)=>{
   return (
-    <Container maxWidth='lg'>
+    <div >
       <Paper>
         
         <TableContainer component={Paper}>
@@ -84,7 +84,7 @@ const  CreateTeamTable:React.FC<Props>=(props)=>{
           </Table>
         </TableContainer>
       </Paper>
-    </Container>
+    </div>
 
   );
 }
