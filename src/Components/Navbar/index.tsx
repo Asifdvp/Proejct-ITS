@@ -39,8 +39,7 @@ const ResponsiveAppBar = () => {
     return (
         <AppBar position="static">
             <Container maxWidth="xl">
-                <Toolbar disableGutters>
-                        
+                <Toolbar disableGutters>         
                     <Typography
                         variant="h6"
                         noWrap
@@ -59,20 +58,7 @@ const ResponsiveAppBar = () => {
                         <Logo />
 
                     </Typography>
-
-                    <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
-                        <IconButton
-                            size="large"
-                            aria-label="account of current user"
-                            aria-controls="menu-appbar"
-                            aria-haspopup="true"
-                            onClick={handleOpenNavMenu}
-                            color="inherit"
-                        >
-                            <MenuIcon />
-                        </IconButton>
-                        
-                    </Box>
+                   
                     <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
                     <Typography
                         variant="h5"
@@ -104,7 +90,6 @@ const ResponsiveAppBar = () => {
                             </Button>
                         ))}
                     </Box>
-
                     <Box sx={{ flexGrow: 0 }}>
                         <Tooltip title="Open settings">
                             <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>

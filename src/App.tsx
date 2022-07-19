@@ -9,9 +9,11 @@ import ResponsiveAppBar from './Components/Navbar';
 import Ilkinlayihemelumatlari from './Components/Card/ilkinlayihemelumatlari';
 import KomandaniYaratCard from './Components/Card/komandaniyarat';
 import Emptykomandayarat from './Components/Card/emptykomandayarat';
-import EditPlanModal from './Components/Modals/EditPlan/EditPlanModal';
 import Fealiyyatplaniyarat from './Components/Card/fealiyyatplaniyarat';
+import EditPlanModal from './Components/Modals/EditPlan/EditPlanModal';
 import './App.scss';
+import Header from './Components/Header/Header';
+// import FirstWindow from './Pages/firstWindows/FirstWindows';
 function App() {
   return (
     <div className="App">
@@ -20,12 +22,16 @@ function App() {
       {/* <ModalCreatTeamTable /> */}
       {/* <Card basliq='Komandani yarat' buttonExist='false'/>
       <Card basliq='Layihə detalları' buttonExist='true' /> */}
-      <Ilkinlayihemelumatlari title={'İlkin layihə məlumatları'} buttonexist={'false'} /> 
-    <KomandaniYaratCard title={'Komandanı yarat'} buttonexist={'true'} /> 
-      <ResponsiveAppBar /> 
-       <Emptykomandayarat /> 
-       <EditPlanModal/>
-      <Fealiyyatplaniyarat />
+      {/* <Ilkinlayihemelumatlari title={'İlkin layihə məlumatları'} buttonexist={'false'} /> 
+    <KomandaniYaratCard title={'Komandanı yarat'} buttonexist={'true'} /> */}
+      {/* <ResponsiveAppBar />   */}
+      {/* <EditPlanModal/> */}
+       {/* <Emptykomandayarat /> 
+       
+      // <Fealiyyatplaniyarat /> */}
+      {/* <FirstWindow/> */}
+      <ResponsiveAppBar/>
+      <Header/>
     </div>
   );
 }
