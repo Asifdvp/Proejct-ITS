@@ -21,9 +21,9 @@ function App() {
       {/* <Card basliq='Komandani yarat' buttonExist='false'/>
       <Card basliq='Layihə detalları' buttonExist='true' /> */}
       {/* <Ilkinlayihemelumatlari title={'İlkin layihə məlumatları'} buttonexist={'false'} /> 
-    <KomandaniYaratCard title={'Komandanı yarat'} buttonexist={'true'} /> 
-      <ResponsiveAppBar />  */}
-      <EditPlanModal/>
+    <KomandaniYaratCard title={'Komandanı yarat'} buttonexist={'true'} /> */}
+      <ResponsiveAppBar />  
+      {/* <EditPlanModal/> */}
        {/* <Emptykomandayarat /> 
       <Fealiyyatplaniyarat /> */}
     </div>
