@@ -13,6 +13,7 @@ import Fealiyyatplaniyarat from './Components/Card/fealiyyatplaniyarat';
 import EditPlanModal from './Components/Modals/EditPlan/EditPlanModal';
 import './App.scss';
 import Header from './Components/Header/Header';
+import FirstWindow from './Pages/firstWindows/firstWindows';
 // import FirstWindow from './Pages/firstWindows/FirstWindows';
 function App() {
   return (
@@ -28,15 +29,8 @@ function App() {
       {/* <EditPlanModal/> */}
        {/* <Emptykomandayarat /> 
        
-<<<<<<< HEAD
-      // <Fealiyyatplaniyarat /> */}
-      {/* <FirstWindow/> */}
-      <ResponsiveAppBar/>
-      <Header/>
-=======
       <Fealiyyatplaniyarat /> */}
       <FirstWindow/>
->>>>>>> master
     </div>
   );
 }
