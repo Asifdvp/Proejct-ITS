@@ -1,5 +1,5 @@
 @import '../../Common/Fonts/Font.css';
-@import "../../Common/Colors/style.css";
+@import "../../Common/Colors/style.scss";
 .MuiButton-root,.MuiFab-root{
     &.clearBtn{
         background: #FFFFFF;
@@ -12,9 +12,7 @@
         filter: drop-shadow(0px 0px 5px rgba(15, 54, 115, 0.11));
         top:-15px;
     }
-    &.addBtn{ 
-        min-width: 48px;
-        min-height: 48px;
+    &.addBtn{     
         width: 48px;
         height: 48px;
         background: $green6f;
@@ -49,18 +47,27 @@
     }
 }
 }
-  .MuiButton-text.addBtnText{
-    font-family: 'Poppins';
+  
+  .MuiButton-root.addBtnText {
+    font-family: Poppins;
     font-style: normal;
     font-weight: 500;
     text-transform: capitalize;
     font-size: 16px;
     line-height: 100%;
-    color: #292D32;
-    & .addBtn.addTextBtn{
-        height: 20px;
-        width: 20px;
-        min-height: 20px;
-       
+    color: $black29;
+    .MuiButton-startIcon{
+.MuiButtonBase-root.css-mm42gz-MuiButtonBase-root-MuiFab-root{
+    height: 20px ;
+    width: 20px ;
+    min-width: 20px;
+    min-height: 20px;
+    background: $green6f;
+    box-shadow: none;
+    &:hover{
+        background: $green6f;
+    }
+
+}
     }
   }

@@ -11,9 +11,19 @@ import StatusInput from './Components/Inputs/StatusInput';
 import CheckSelect from './Components/Inputs/CheckSelect';
 import TextArea from './Components/Inputs/TextArea';
 import { Grid } from '@mui/material';
+import AddButton from './Components/Buttons/AddButton';
+import AddTextBtnIcon from './Assets/Svg/AddTextBtnIcon';
+import ClearButton from './Components/Buttons/ClearButton';
+import ContainedButton from './Components/Buttons/ContainedButton';
+import AddTextButton from './Components/Buttons/AddTextButton';
 function App() {
   return (
     <div className="App">
+      <AddButton/>
+      <ContainedButton paddingSize={"16px 32px"} text="Yadda Saxla" variantName="outlined" disAble="false"/>
+      <ClearButton/>
+      <AddTextButton/>
+
       {/* <Grid container spacing={2}>
         <Grid item xs={3}>
         <TextInput placeholder={'1.2'} label={'Task Nömrəsi'} disAble={false} />
@@ -44,10 +54,10 @@ function App() {
       {/* <div className="container">
      
       </div> */}
- <RemoveMemberAlert title="Komanda üzvünü silmək istədiyinizə əminsiniz mi ?" /> 
+ {/* <RemoveMemberAlert title="Komanda üzvünü silmək istədiyinizə əminsiniz mi ?" /> 
 <CreatePlan/>
 <AddTeamMemberModal/>
-<EditPlanModal/> 
+<EditPlanModal/>  */}
 </div>
   )};
 export default App;
