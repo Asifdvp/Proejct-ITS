@@ -3,7 +3,8 @@ import TextInput from '../../Inputs/TextInput';
 import { Grid, Container } from '@mui/material';
 import './style.scss';
 import RecipeReviewCard from '../index';
-import TextArea from '../../Inputs/TextArea'
+// import Textarea from '../../Inputs/TextArea';
+import TextArea from '../../Inputs/TextArea';
 interface Props{
     title:string,
     buttonexist:any

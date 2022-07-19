@@ -18,6 +18,7 @@ function App() {
       {/* <CreateTeamTable /> */}
       {/* <LayiheDetallari /> */}
       {/* <ModalCreatTeamTable /> */}
+<<<<<<< HEAD
       {/* <Card basliq='Komandani yarat' buttonExist='false'/>
       <Card basliq='Layihə detalları' buttonExist='true' /> */}
       {/* <Ilkinlayihemelumatlari title={'İlkin layihə məlumatları'} buttonexist={'false'} /> 
@@ -26,6 +27,15 @@ function App() {
       {/* <EditPlanModal/> */}
        {/* <Emptykomandayarat /> 
       <Fealiyyatplaniyarat /> */}
+=======
+      {/* <Card basliq='Komandani yarat' buttonExist='false'/> */}
+      {/* <Card basliq='Layihə detalları' buttonExist='true' /> */}
+      {/* <KomandaniYaratCard title={'Komandanı yarat'} buttonexist={'true'} /> */}
+      <ResponsiveAppBar />
+      {/* <Ilkinlayihemelumatlari title={'İlkin layihə məlumatları'} buttonexist={'false'} /> */}
+      {/* <Emptykomandayarat /> */}
+      {/* <Fealiyyatplaniyarat /> */}
+>>>>>>> Ramil
     </div>
   );
 }
