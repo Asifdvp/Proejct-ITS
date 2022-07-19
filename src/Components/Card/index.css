@@ -19,4 +19,18 @@
   line-height: 16px;
   letter-spacing: 0em;
   text-align: center;
+}
+
+.css-1qvr50w-MuiTypography-root {
+  font-family: Poppins !important;
+  font-size: 24px !important;
+  font-weight: 500 !important;
+  line-height: 24px !important;
+  letter-spacing: 0em !important;
+  text-align: left;
+}
+
+.css-1r7xutp-MuiPaper-root-MuiCard-root {
+  width: 1280px !important;
+  padding: 16px 24px !important;
 }/*# sourceMappingURL=index.css.map */
