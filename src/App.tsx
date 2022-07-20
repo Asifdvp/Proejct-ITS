@@ -28,15 +28,10 @@ function App() {
       {/* <EditPlanModal/> */}
        {/* <Emptykomandayarat /> 
        
-<<<<<<< HEAD
       // <Fealiyyatplaniyarat /> */}
       {/* <FirstWindow/> */}
       <ResponsiveAppBar/>
       <Header/>
-=======
-      <Fealiyyatplaniyarat /> */}
-      <FirstWindow/>
->>>>>>> master
     </div>
   );
 }
