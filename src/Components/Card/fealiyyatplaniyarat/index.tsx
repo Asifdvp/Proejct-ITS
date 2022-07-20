@@ -1,5 +1,6 @@
 import { Grid } from '@mui/material'
 import React from 'react'
+import CreatePlan from '../../Modals/CreatePlan/CreatePlan'
 import RecipeReviewCard from '../index'
 import './style.scss'
 const Fealiyyatplaniyarat = () => {
@@ -14,7 +15,7 @@ const Fealiyyatplaniyarat = () => {
                         </p>
                     </Grid>
                     <Grid item xs={12}>
-                        <a href='https:/www.google.com' className='merkez merkez2'>Plan yarat</a>
+                    <div  className='merkez merkez2'>  <CreatePlan/></div>
                     </Grid>
                 </Grid>
             </div>

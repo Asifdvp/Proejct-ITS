@@ -1,0 +1,55 @@
+@import url("../../Common/Fonts/Font.css");
+.header-root {
+  width: 100%;
+  background-color: white;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.header-root .MuiGrid-root.header-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1280px;
+  max-width: 1280px;
+  padding: 21px 0;
+}
+.header-root .MuiGrid-root.header-main .MuiGrid-root.user-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-root .MuiGrid-root.header-main .MuiGrid-root.user-menu .MuiGrid-root .MuiButton-root.avatar-name {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #000000;
+  text-transform: capitalize;
+}
+
+.MuiModal-root.header-avatar-menu .MuiPaper-root {
+  box-shadow: none;
+  background: #FFFFFF;
+  border: 1px solid #068FDB;
+  box-shadow: 0px 3px 10px rgba(41, 45, 50, 0.06);
+  border-radius: 4px;
+}
+.MuiModal-root.header-avatar-menu .MuiPaper-root .MuiList-root {
+  box-sizing: border-box;
+  padding: 20px 18px;
+}
+.MuiModal-root.header-avatar-menu .MuiPaper-root .MuiList-root .MuiMenuItem-root.head-menu-item {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+}
+.MuiModal-root.header-avatar-menu .MuiPaper-root .MuiList-root .MuiMenuItem-root.head-menu-item .MuiGrid-root {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */
