@@ -43,7 +43,7 @@ return (
       >
         <Grid container className='avatarIcon-and-name' columnSpacing={{ xs: 2, sm: 2, md: 2 }} >
           <Grid item sx={{height:"40px"}} >  <Avatar/></Grid>
-          <Grid item >    sdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfzade</Grid>
+          <Grid item >AgaRehim Quluzade</Grid>
         </Grid>
       </Button>
       <Menu
