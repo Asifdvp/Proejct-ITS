@@ -30,8 +30,8 @@ const FirstWindow = () => {
 </Grid>
 </Grid>
 <Grid item xs={12} mt={"56px"} >
- {/* <Emptykomandayarat/> */} 
-<KomandaniYaratCard title="Komandanı yarat" buttonexist={false}/>
+ <Emptykomandayarat/> 
+{/* <KomandaniYaratCard title="Komandanı yarat" buttonexist={false}/> */}
 </Grid>
 <Grid item xs={12} mt={"32px"} >
  

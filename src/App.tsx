@@ -29,16 +29,9 @@ function App() {
       {/* <EditPlanModal/> */}
        {/* <Emptykomandayarat /> 
        
-<<<<<<< HEAD
-      // <Fealiyyatplaniyarat /> */}
-      {/* <FirstWindow/> */}
-      <ResponsiveAppBar/>
-      <Header/>
-=======
       <Fealiyyatplaniyarat /> */}
       <FirstWindow/>
       {/* <Header/> */}
->>>>>>> e597490ac33d287908f74252ad91ed49474079ea
     </div>
   );
 }
