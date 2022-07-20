@@ -31,6 +31,7 @@ function App() {
        
       <Fealiyyatplaniyarat /> */}
       <FirstWindow/>
+      {/* <Header/> */}
     </div>
   );
 }
