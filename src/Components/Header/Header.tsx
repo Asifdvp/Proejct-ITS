@@ -1,30 +1,3 @@
-<<<<<<< HEAD
-import React from "react";
-import Grid from "@mui/material/Grid";
-import "./style.css";
-import HeaderLogo from "../../Assets/Svg/HeaderLogo";
-import Avatar from "../../Assets/Svg/Avatar";
-
-import Button from "@mui/material/Button";
-import Menu from "@mui/material/Menu";
-import MenuItem from "@mui/material/MenuItem";
-import MenuIcon from "../../Assets/Svg/MenuIcon";
-import { Container } from "@mui/material";
-import ContainedButton from "../Buttons/ContainedButton";
-import LogoutIcon from "../../Assets/Svg/LogoutIcon";
-
-const Header = () => {
-  const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
-  const open = Boolean(anchorEl);
-  const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
-    setAnchorEl(event.currentTarget);
-  };
-  const handleClose = () => {
-    setAnchorEl(null);
-  };
-
-  return (
-=======
 import React from 'react'
 import Grid from '@mui/material/Grid';
 import './style.css';
@@ -47,14 +20,11 @@ const Header = () => {
 
 
 return (
->>>>>>> 9ec0cdf77d233f5cf7e003937715a10288cd59fe
     <div className="header-root">
       <Grid container className="header-main">
         <Grid item>
           <HeaderLogo />
         </Grid>
-<<<<<<< HEAD
-=======
      
         <Grid item >
       <Grid container className='user-menu'>
@@ -106,7 +76,6 @@ return (
     </div>
   )
 }
->>>>>>> 9ec0cdf77d233f5cf7e003937715a10288cd59fe
 
         <Grid item>
           <Grid container className="user-menu">
