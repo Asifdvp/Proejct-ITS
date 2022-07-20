@@ -26,7 +26,17 @@
   font-size: 18px;
   line-height: 150%;
   color: #000000;
+  display: flex;
+  justify-content: space-between;
   text-transform: capitalize;
+  padding-left: 0;
+  padding-right: 13px;
+  min-width: 260px;
+}
+.header-root .MuiGrid-root.header-main .MuiGrid-root.user-menu .MuiGrid-root .MuiButton-root.avatar-name .avatarIcon-and-name {
+  display: flex;
+  align-content: center;
+  align-items: center;
 }
 
 .MuiModal-root.header-avatar-menu .MuiPaper-root {
@@ -35,10 +45,13 @@
   border: 1px solid #068FDB;
   box-shadow: 0px 3px 10px rgba(41, 45, 50, 0.06);
   border-radius: 4px;
+  width: inherit !important;
 }
 .MuiModal-root.header-avatar-menu .MuiPaper-root .MuiList-root {
   box-sizing: border-box;
   padding: 20px 18px;
+  min-width: 260px;
+  max-width: auto;
 }
 .MuiModal-root.header-avatar-menu .MuiPaper-root .MuiList-root .MuiMenuItem-root.head-menu-item {
   font-family: Poppins;

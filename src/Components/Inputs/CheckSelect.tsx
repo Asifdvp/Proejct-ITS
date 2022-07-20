@@ -14,6 +14,18 @@ const names = [
   'Oliver Hansen',
   'Van Henry',
   'April Tucker',
+  'Van Henry',
+  'April Tucker',
+  'Van Henry',
+  'April Tucker',
+  'Van Henry',
+  'April Tucker',
+  'Van Henry',
+  'April Tucker',
+  'Van Henry',
+  'April Tucker',
+  'Van Henry',
+  'April Tucker',
   'Ralph Hubbard'
 ];
 
@@ -33,9 +45,10 @@ export default function CheckSelect() {
   return (
     <FormControl>
     <InputLabel id="demo-multiple-checkbox-label">Tag</InputLabel>
-    <Select
+    <Select 
+
       IconComponent={Arrow}
-      className='check-select'
+      className='check-select '
       labelId="demo-multiple-checkbox-label"
       id="demo-multiple-checkbox"
       multiple
@@ -44,11 +57,13 @@ export default function CheckSelect() {
       input={<OutlinedInput label="Tag" />}
       renderValue={(selected) => selected.join(', ')}
     >
+
       {names.map((name) => (
         <MenuItem className="check" key={name} value={name}>
           <Checkbox checkedIcon={<CheckedIcon/>} icon={<CheckIcon/>}  checked={personName.indexOf(name) > -1} />
           <ListItemText primary={name} />
         </MenuItem>
+
       ))}
     </Select>
   </FormControl>
