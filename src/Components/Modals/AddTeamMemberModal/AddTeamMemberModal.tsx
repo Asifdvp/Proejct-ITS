@@ -17,7 +17,7 @@ const AddTeamMmeberModal: FC = () => {
   const handleCloseT = () => setOpen(false);
   return (
     <div>
-      <Button onClick={handleOpenT}>Open modal</Button>
+      <Button className="merkez merkez2" onClick={handleOpenT}> Komanda yarat</Button>
       <ModalComponent open={openT} handleClose={handleCloseT} clear={true}>
         <div className="add-team-member-modal">
           <Grid alignItems="center" container>

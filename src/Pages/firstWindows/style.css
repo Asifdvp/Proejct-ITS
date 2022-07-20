@@ -1,1 +1,21 @@
-/*# sourceMappingURL=style.css.map */
+@import url("../../Common/Fonts/Font.css");
+.first-body {
+  background-color: #F4FAFF;
+  padding-bottom: 48px;
+}
+
+.MuiContainer-root.main-container {
+  width: 1280px;
+  max-width: 1280px;
+  padding: 0;
+  padding-top: 40px;
+}
+.MuiContainer-root.main-container .MuiGrid-root.main-container-grid .MuiGrid-root .MuiTypography-root.new-prohect-header {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 100%;
+  color: #068FDB;
+  margin-bottom: 40px;
+}/*# sourceMappingURL=style.css.map */
